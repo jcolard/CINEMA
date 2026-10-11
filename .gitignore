@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+*.db
+cinemagoer.db
+inspect_*.py
+test_*.py
+find_raw_*.py
+parse_pathe.py

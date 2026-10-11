@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>CinéMatch — Pathé Wilson Toulouse</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <!-- En-tête mobile -->
+    <header class="app-header">
+      <div class="header-left">
+        <span class="logo-icon">🎬</span>
+        <div>
+          <h1 class="app-title">CinéMatch</h1>
+          <!-- Sélecteur de cinéma -->
+          <div class="cinema-selector-wrap">
+            <select id="select-cinema" class="cinema-select">
+              <option value="pathe">📍 Pathé Wilson</option>
+              <option value="utopia">📍 Utopia Tournefeuille</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="header-badges">
+        <button id="btn-refresh-cinema" class="btn-refresh" title="Actualiser la programmation en direct depuis Toulourama">
+          <span class="refresh-icon">🔄</span>
+        </button>
+        <span id="badge-likes" class="pill pill-green" title="Films aimés">💚 <span id="count-likes">0</span></span>
+        <span id="badge-remaining" class="pill pill-neutral" title="À swiper">🎴 <span id="count-remaining">0</span></span>
+      </div>
+    </header>
+
+    <!-- Conteneur des Vues -->
+    <main class="views-container">
+      
+      <!-- ============================================== -->
+      <!-- VUE 1 : SWIPE DECK (TINDER CINÉMA)             -->
+      <!-- ============================================== -->
+      <section id="view-swipe" class="view active">
+        <div class="swipe-area">
+          <div id="card-deck" class="card-deck">
+            <!-- Les cartes sont injectées dynamiquement par JS -->
+          </div>
+
+          <!-- Écran de fin quand tout a été swipé -->
+          <div id="deck-empty" class="deck-empty hidden">
+            <div class="empty-card">
+              <span class="empty-icon">🎉</span>
+              <h2>Vous êtes à jour !</h2>
+              <p>Vous avez trié tous les films à l'affiche au Pathé Wilson.</p>
+              <div class="empty-actions">
+                <button id="btn-goto-schedule" class="btn btn-primary">
+                  📅 Voir la programmation colorée
+                </button>
+                <button id="btn-reset-deck" class="btn btn-outline">
+                  🔄 Réinitialiser mes swipes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Barre d'actions sous le Swipe -->
+        <div class="swipe-controls">
+          <button id="btn-seen" class="action-btn btn-seen" title="Déjà vu (retirer de la pile)">
+            <span class="action-icon">👁️</span>
+            <span class="action-label">Déjà vu</span>
+          </button>
+          
+          <button id="btn-dislike" class="action-btn btn-dislike" title="Pas intéressé (Swipe gauche)">
+            <span class="action-icon">❌</span>
+            <span class="action-label">Passer</span>
+          </button>
+
+          <button id="btn-skip" class="action-btn btn-skip" title="Neutre / Reporter">
+            <span class="action-icon">⏭️</span>
+            <span class="action-label">Neutre</span>
+          </button>
+
+          <button id="btn-like" class="action-btn btn-like" title="M'intéresse ! (Swipe droite)">
+            <span class="action-icon">💚</span>
+            <span class="action-label">Intéressé</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- ============================================== -->
+      <!-- VUE 2 : PROGRAMMATION PATHÉ (STYLE TOULOURAMA) -->
+      <!-- ============================================== -->
+      <section id="view-schedule" class="view">
+        <div class="schedule-header">
+          <!-- Sélecteur de jour -->
+          <div id="day-tabs" class="day-tabs">
+            <!-- Onglets de jours générés dynamiquement -->
+          </div>
+
+          <!-- Légende interactive & filtres -->
+          <div class="filter-bar">
+            <div class="legend-items">
+              <span class="legend-tag tag-green">● Intéressé</span>
+              <span class="legend-tag tag-red">● Rejeté</span>
+              <span class="legend-tag tag-seen">● Vu</span>
+              <span class="legend-tag tag-default">● Neutre</span>
+            </div>
+            <div class="schedule-quick-filters">
+              <button id="filter-all" class="filter-pill active" data-filter="all">Tous</button>
+              <button id="filter-after18" class="filter-pill" data-filter="after18">🌙 Après 18h</button>
+              <button id="filter-liked" class="filter-pill" data-filter="liked">💚 Mes choix</button>
+              <button id="filter-unseen" class="filter-pill" data-filter="unseen">Masquer vus</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Liste des séances du jour sélectionné -->
+        <div id="schedule-list" class="schedule-list">
+          <!-- Séances injectées par JS -->
+        </div>
+      </section>
+
+      <!-- ============================================== -->
+      <!-- VUE 3 : MES SÉLECTIONS & STATS                 -->
+      <!-- ============================================== -->
+      <section id="view-selection" class="view">
+        <div class="profile-header">
+          <h2>Mes Préférences Ciné</h2>
+          <p class="profile-desc">Films classés selon vos swipes et vos séances vues.</p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card stat-liked">
+            <span class="stat-number" id="stat-liked-count">0</span>
+            <span class="stat-name">💚 Intéressés</span>
+          </div>
+          <div class="stat-card stat-seen">
+            <span class="stat-number" id="stat-seen-count">0</span>
+            <span class="stat-name">👁️ Déjà vus</span>
+          </div>
+          <div class="stat-card stat-disliked">
+            <span class="stat-number" id="stat-disliked-count">0</span>
+            <span class="stat-name">❌ Rejetés</span>
+          </div>
+        </div>
+
+        <div class="selection-tabs">
+          <button class="sel-tab active" data-target="liked-list">Films qui m'intéressent</button>
+          <button class="sel-tab" data-target="seen-list">Déjà vus</button>
+          <button class="sel-tab" data-target="disliked-list">Rejetés</button>
+        </div>
+
+        <div id="selection-content" class="selection-content">
+          <div id="liked-list" class="movie-mini-list active"></div>
+          <div id="seen-list" class="movie-mini-list"></div>
+          <div id="disliked-list" class="movie-mini-list"></div>
+        </div>
+
+        <div class="danger-zone">
+          <button id="btn-clear-all" class="btn btn-danger-outline">
+            🗑️ Réinitialiser tout mon LocalStorage
+          </button>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Navigation inférieure (Mobile First) -->
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-view="view-swipe">
+        <span class="nav-icon">🎴</span>
+        <span class="nav-text">Découvrir</span>
+      </button>
+      <button class="nav-item" data-view="view-schedule">
+        <span class="nav-icon">📅</span>
+        <span class="nav-text">Séances Pathé</span>
+      </button>
+      <button class="nav-item" data-view="view-selection">
+        <span class="nav-icon">⭐</span>
+        <span class="nav-text">Mes Films</span>
+      </button>
+    </nav>
+
+    <!-- ============================================== -->
+    <!-- MODAL BANDE-ANNONCE (RICKROLL PAR DÉFAUT)      -->
+    <!-- ============================================== -->
+    <div id="trailer-modal" class="modal hidden">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content trailer-modal-content">
+        <div class="modal-header">
+          <h3 id="trailer-title">Bande-Annonce</h3>
+          <button id="btn-close-trailer" class="btn-close">✕</button>
+        </div>
+        <div class="video-wrapper">
+          <iframe id="trailer-iframe" 
+                  src="" 
+                  title="Bande-Annonce" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+        <div class="modal-footer-note">
+          <p>🎵 Bande-annonce provisoire configurée par défaut (Rickroll) !</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================== -->
+    <!-- MODAL DÉTAILS FILM RAPIDE                      -->
+    <!-- ============================================== -->
+    <div id="detail-modal" class="modal hidden">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content detail-modal-content">
+        <button id="btn-close-detail" class="btn-close detail-close">✕</button>
+        <div id="detail-body">
+          <!-- Rempli dynamiquement -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast hidden"></div>
+  </div>
+
+  <!-- Données pré-chargées depuis le script de scraping Toulourama & IMDb -->
+  <script src="movies_data.js"></script>
+  <!-- Logique de l'application -->
+  <script src="app.js"></script>
+</body>
+</html>
