@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>CinéMatch — Pathé Wilson Toulouse</title>
+  <meta name="theme-color" content="#090a0f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="CinéMatch">
+  <meta name="description" content="Programmation cinéma épurée et découverte de films — Pathé Wilson & Utopia">
+  <title>CinéMatch</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,145 +19,125 @@
 </head>
 <body>
   <div id="app">
-    <!-- En-tête mobile -->
+    <!-- En-tête épuré -->
     <header class="app-header">
       <div class="header-left">
-        <span class="logo-icon">🎬</span>
-        <div>
-          <h1 class="app-title">CinéMatch</h1>
-          <!-- Sélecteur de cinéma -->
+        <img src="logo.svg" alt="CinéMatch" class="brand-logo">
+        <div class="brand-block">
+          <div class="brand-row">
+            <h1 class="app-title">CinéMatch</h1>
+            <span id="sync-indicator" class="sync-indicator hidden" title="Mise à jour automatique en cours"></span>
+          </div>
           <div class="cinema-selector-wrap">
-            <select id="select-cinema" class="cinema-select">
-              <option value="pathe">📍 Pathé Wilson</option>
-              <option value="utopia">📍 Utopia Tournefeuille</option>
+            <select id="select-cinema" class="cinema-select" aria-label="Choisir le cinéma">
+              <option value="pathe">Pathé Wilson</option>
+              <option value="utopia">Utopia Tournefeuille</option>
             </select>
           </div>
         </div>
       </div>
-      <div class="header-badges">
-        <button id="btn-refresh-cinema" class="btn-refresh" title="Actualiser la programmation en direct depuis Toulourama">
-          <span class="refresh-icon">🔄</span>
+
+      <div class="header-right">
+        <button id="btn-install-pwa" class="btn-install hidden" type="button" title="Installer l'application">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Installer</span>
         </button>
-        <span id="badge-likes" class="pill pill-green" title="Films aimés">💚 <span id="count-likes">0</span></span>
-        <span id="badge-remaining" class="pill pill-neutral" title="À swiper">🎴 <span id="count-remaining">0</span></span>
+        <div class="header-badges">
+          <span id="badge-likes" class="pill pill-green" title="Films dans vos envies">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            <span id="count-likes">0</span>
+          </span>
+        </div>
       </div>
     </header>
 
     <!-- Conteneur des Vues -->
     <main class="views-container">
-      
-      <!-- ============================================== -->
-      <!-- VUE 1 : SWIPE DECK (TINDER CINÉMA)             -->
-      <!-- ============================================== -->
-      <section id="view-swipe" class="view active">
-        <div class="swipe-area">
-          <div id="card-deck" class="card-deck">
-            <!-- Les cartes sont injectées dynamiquement par JS -->
-          </div>
 
-          <!-- Écran de fin quand tout a été swipé -->
+      <!-- ============================================== -->
+      <!-- VUE 1 (DÉFAUT) : SÉANCES PATHÉ / UTOPIA        -->
+      <!-- ============================================== -->
+      <section id="view-schedule" class="view active">
+        <div class="schedule-header">
+          <div id="day-tabs" class="day-tabs"></div>
+
+          <div class="schedule-quick-filters">
+            <button class="filter-pill active" data-filter="all">Toutes</button>
+            <button class="filter-pill" data-filter="after18">Dès 18h</button>
+            <button class="filter-pill" data-filter="liked">Mes envies</button>
+            <button class="filter-pill" data-filter="unseen">Non vus</button>
+          </div>
+        </div>
+
+        <div id="schedule-list" class="schedule-list"></div>
+      </section>
+
+      <!-- ============================================== -->
+      <!-- VUE 2 : DÉCOUVRIR (SWIPE DECK)                 -->
+      <!-- ============================================== -->
+      <section id="view-swipe" class="view">
+        <div class="swipe-area">
+          <div id="card-deck" class="card-deck"></div>
+
           <div id="deck-empty" class="deck-empty hidden">
             <div class="empty-card">
-              <span class="empty-icon">🎉</span>
-              <h2>Vous êtes à jour !</h2>
-              <p>Vous avez trié tous les films à l'affiche au Pathé Wilson.</p>
+              <div class="empty-icon-circle">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <h2>Tout est trié</h2>
+              <p>Vous avez parcouru tous les films à l'affiche.</p>
               <div class="empty-actions">
                 <button id="btn-goto-schedule" class="btn btn-primary">
-                  📅 Voir la programmation colorée
+                  Voir les séances
                 </button>
                 <button id="btn-reset-deck" class="btn btn-outline">
-                  🔄 Réinitialiser mes swipes
+                  Recommencer le tri
                 </button>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Barre d'actions sous le Swipe -->
+        <!-- Barre d'actions épurée -->
         <div class="swipe-controls">
-          <button id="btn-seen" class="action-btn btn-seen" title="Déjà vu (retirer de la pile)">
-            <span class="action-icon">👁️</span>
-            <span class="action-label">Déjà vu</span>
+          <button id="btn-seen" class="action-btn btn-seen" title="Déjà vu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span class="action-label">Vu</span>
           </button>
-          
-          <button id="btn-dislike" class="action-btn btn-dislike" title="Pas intéressé (Swipe gauche)">
-            <span class="action-icon">❌</span>
+
+          <button id="btn-dislike" class="action-btn btn-dislike" title="Passer">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
             <span class="action-label">Passer</span>
           </button>
 
-          <button id="btn-skip" class="action-btn btn-skip" title="Neutre / Reporter">
-            <span class="action-icon">⏭️</span>
-            <span class="action-label">Neutre</span>
+          <button id="btn-skip" class="action-btn btn-skip" title="Plus tard">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 4 15 12 5 20 5 4"/><line x1="19" y1="5" x2="19" y2="19"/></svg>
+            <span class="action-label">Plus tard</span>
           </button>
 
-          <button id="btn-like" class="action-btn btn-like" title="M'intéresse ! (Swipe droite)">
-            <span class="action-icon">💚</span>
-            <span class="action-label">Intéressé</span>
+          <button id="btn-like" class="action-btn btn-like" title="Envie de voir">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            <span class="action-label">Envie</span>
           </button>
         </div>
       </section>
 
       <!-- ============================================== -->
-      <!-- VUE 2 : PROGRAMMATION PATHÉ (STYLE TOULOURAMA) -->
-      <!-- ============================================== -->
-      <section id="view-schedule" class="view">
-        <div class="schedule-header">
-          <!-- Sélecteur de jour -->
-          <div id="day-tabs" class="day-tabs">
-            <!-- Onglets de jours générés dynamiquement -->
-          </div>
-
-          <!-- Légende interactive & filtres -->
-          <div class="filter-bar">
-            <div class="legend-items">
-              <span class="legend-tag tag-green">● Intéressé</span>
-              <span class="legend-tag tag-red">● Rejeté</span>
-              <span class="legend-tag tag-seen">● Vu</span>
-              <span class="legend-tag tag-default">● Neutre</span>
-            </div>
-            <div class="schedule-quick-filters">
-              <button id="filter-all" class="filter-pill active" data-filter="all">Tous</button>
-              <button id="filter-after18" class="filter-pill" data-filter="after18">🌙 Après 18h</button>
-              <button id="filter-liked" class="filter-pill" data-filter="liked">💚 Mes choix</button>
-              <button id="filter-unseen" class="filter-pill" data-filter="unseen">Masquer vus</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Liste des séances du jour sélectionné -->
-        <div id="schedule-list" class="schedule-list">
-          <!-- Séances injectées par JS -->
-        </div>
-      </section>
-
-      <!-- ============================================== -->
-      <!-- VUE 3 : MES SÉLECTIONS & STATS                 -->
+      <!-- VUE 3 : MES FILMS                              -->
       <!-- ============================================== -->
       <section id="view-selection" class="view">
-        <div class="profile-header">
-          <h2>Mes Préférences Ciné</h2>
-          <p class="profile-desc">Films classés selon vos swipes et vos séances vues.</p>
-        </div>
-
-        <div class="stats-grid">
-          <div class="stat-card stat-liked">
-            <span class="stat-number" id="stat-liked-count">0</span>
-            <span class="stat-name">💚 Intéressés</span>
+        <div class="selection-header-bar">
+          <div class="selection-tabs">
+            <button class="sel-tab active" data-target="liked-list">
+              Envies <span class="tab-count" id="stat-liked-count">0</span>
+            </button>
+            <button class="sel-tab" data-target="seen-list">
+              Vus <span class="tab-count" id="stat-seen-count">0</span>
+            </button>
+            <button class="sel-tab" data-target="disliked-list">
+              Ignorés <span class="tab-count" id="stat-disliked-count">0</span>
+            </button>
           </div>
-          <div class="stat-card stat-seen">
-            <span class="stat-number" id="stat-seen-count">0</span>
-            <span class="stat-name">👁️ Déjà vus</span>
-          </div>
-          <div class="stat-card stat-disliked">
-            <span class="stat-number" id="stat-disliked-count">0</span>
-            <span class="stat-name">❌ Rejetés</span>
-          </div>
-        </div>
-
-        <div class="selection-tabs">
-          <button class="sel-tab active" data-target="liked-list">Films qui m'intéressent</button>
-          <button class="sel-tab" data-target="seen-list">Déjà vus</button>
-          <button class="sel-tab" data-target="disliked-list">Rejetés</button>
         </div>
 
         <div id="selection-content" class="selection-content">
@@ -160,64 +148,41 @@
 
         <div class="danger-zone">
           <button id="btn-clear-all" class="btn btn-danger-outline">
-            🗑️ Réinitialiser tout mon LocalStorage
+            Réinitialiser mes choix
           </button>
         </div>
       </section>
 
     </main>
 
-    <!-- Navigation inférieure (Mobile First) -->
+    <!-- Navigation inférieure (Séances en 1re position) -->
     <nav class="bottom-nav">
-      <button class="nav-item active" data-view="view-swipe">
-        <span class="nav-icon">🎴</span>
+      <button class="nav-item active" data-view="view-schedule">
+        <svg class="nav-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        <span class="nav-text" id="nav-schedule-label">Séances Pathé</span>
+      </button>
+      <button class="nav-item" data-view="view-swipe">
+        <div class="nav-icon-wrap">
+          <svg class="nav-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="3"/><line x1="8" y1="6" x2="16" y2="6"/></svg>
+          <span id="count-remaining" class="nav-badge">0</span>
+        </div>
         <span class="nav-text">Découvrir</span>
       </button>
-      <button class="nav-item" data-view="view-schedule">
-        <span class="nav-icon">📅</span>
-        <span class="nav-text">Séances Pathé</span>
-      </button>
       <button class="nav-item" data-view="view-selection">
-        <span class="nav-icon">⭐</span>
+        <svg class="nav-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
         <span class="nav-text">Mes Films</span>
       </button>
     </nav>
 
     <!-- ============================================== -->
-    <!-- MODAL BANDE-ANNONCE (RICKROLL PAR DÉFAUT)      -->
-    <!-- ============================================== -->
-    <div id="trailer-modal" class="modal hidden">
-      <div class="modal-backdrop"></div>
-      <div class="modal-content trailer-modal-content">
-        <div class="modal-header">
-          <h3 id="trailer-title">Bande-Annonce</h3>
-          <button id="btn-close-trailer" class="btn-close">✕</button>
-        </div>
-        <div class="video-wrapper">
-          <iframe id="trailer-iframe" 
-                  src="" 
-                  title="Bande-Annonce" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  allowfullscreen>
-          </iframe>
-        </div>
-        <div class="modal-footer-note">
-          <p>🎵 Bande-annonce provisoire configurée par défaut (Rickroll) !</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- ============================================== -->
-    <!-- MODAL DÉTAILS FILM RAPIDE                      -->
+    <!-- FICHE FILM (BOTTOM SHEET MODAL)                -->
     <!-- ============================================== -->
     <div id="detail-modal" class="modal hidden">
       <div class="modal-backdrop"></div>
       <div class="modal-content detail-modal-content">
-        <button id="btn-close-detail" class="btn-close detail-close">✕</button>
-        <div id="detail-body">
-          <!-- Rempli dynamiquement -->
-        </div>
+        <div class="sheet-handle"></div>
+        <button id="btn-close-detail" class="btn-close detail-close" aria-label="Fermer">✕</button>
+        <div id="detail-body"></div>
       </div>
     </div>
 
@@ -225,9 +190,7 @@
     <div id="toast" class="toast hidden"></div>
   </div>
 
-  <!-- Données pré-chargées depuis le script de scraping Toulourama & IMDb -->
   <script src="movies_data.js"></script>
-  <!-- Logique de l'application -->
   <script src="app.js"></script>
 </body>
 </html>

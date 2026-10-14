@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#161923"/>
+      <stop offset="100%" stop-color="#090A0F"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="96" y1="80" x2="416" y2="432" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="45%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#E11D48"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="160" y1="140" x2="360" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#E11D48" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- App Icon Squircle Base -->
+  <rect width="512" height="512" rx="116" fill="url(#bgGrad)"/>
+  <rect x="4" y="4" width="504" height="504" rx="112" stroke="rgba(255,255,255,0.08)" stroke-width="4"/>
+
+  <!-- Subtle Ambient Cinema Glow -->
+  <circle cx="256" cy="256" r="185" fill="url(#glowGrad)"/>
+
+  <!-- Minimalist Cinema Ticket / Film Frame with Play Cutout -->
+  <g filter="url(#softShadow)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="
+      M124 148
+      C124 130.327 138.327 116 156 116
+      H356
+      C373.673 116 388 130.327 388 148
+      V214
+      C365.909 214 348 231.909 348 254
+      C348 276.091 365.909 294 388 294
+      V364
+      C388 381.673 373.673 396 356 396
+      H156
+      C138.327 396 124 381.673 124 364
+      V294
+      C146.091 294 164 276.091 164 254
+      C164 231.909 146.091 214 124 214
+      V148 Z
+      M224 198
+      C224 190.4 232.13 185.56 238.8 189.2
+      L314.8 245.2
+      C321.2 249.0 321.2 259.0 314.8 262.8
+      L238.8 318.8
+      C232.13 322.44 224 317.6 224 310
+      V198 Z
+    " fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- Subtle Film Sprocket Accents -->
+  <rect x="164" y="144" width="24" height="10" rx="5" fill="#0D0F17" fill-opacity="0.55"/>
+  <rect x="212" y="144" width="24" height="10" rx="5" fill="#0D0F17" fill-opacity="0.55"/>
+  <rect x="276" y="144" width="24" height="10" rx="5" fill="#0D0F17" fill-opacity="0.55"/>
+  <rect x="324" y="144" width="24" height="10" rx="5" fill="#0D0F17" fill-opacity="0.55"/>
+
+  <rect x="164" y="358" width="24" height="10" rx="5" fill="#0D0F17" fill-opacity="0.55"/>
+  <rect x="212" y="358" width="24" height="10" rx="5" fill="#0D0F17" fill-opacity="0.55"/>
+  <rect x="276" y="358" width="24" height="10" rx="5" fill="#0D0F17" fill-opacity="0.55"/>
+  <rect x="324" y="358" width="24" height="10" rx="5" fill="#0D0F17" fill-opacity="0.55"/>
+</svg>
