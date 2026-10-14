@@ -1,7 +1,7 @@
 // Base de données générée depuis Toulourama (Pathé, Cosmo, ABC, Utopia) et IMDb/OMDb
 window.CINEMA_DATA = {
   "source": "Toulourama (Pathé, Cosmo, ABC, Utopia) + OMDb API (IMDb)",
-  "updated_at": "2026-10-14T17:09:04",
+  "updated_at": "2026-10-14T17:43:43",
   "cinema_filter": "pathe,cosmo,abc,utopia",
   "movies": [
     {
@@ -12,6 +12,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880980-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1790669919-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/verity-50815",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/verity-50815"
+      },
       "film_page_url": "https://www.toulourama.fr/film/verity/",
       "synopsis": "Lowen Ashleigh est une écrivaine solitaire. Peinant à vivre de son métier, elle accepte de devenir le prête-plume de l'autrice à succès, Verity Crawford, et s'installe dans sa propriété isolée des regards. En découvrant ce qui semble être les notes personnelles de Verity, la jeune Lowen se retrouve confrontée à des révélations troublantes et inquiétantes concernant Jeremy,le mari de Verity. Elle peine alors à distinguer la fiction de la réalité, la manipulation de l'attirance, le trouble de l'obsession.voir moins",
       "cast": "",
@@ -203,6 +206,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791880926-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269566-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/la-maison-de-nos-reves-51866",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/la-maison-de-nos-reves-51866"
+      },
       "film_page_url": "https://www.toulourama.fr/film/la-maison-de-nos-reves/",
       "synopsis": "Un jeune couple pense avoir enfin trouvé la solution miracle pour devenir propriétaire : Un Viager, une maison sublime au bord du lac, une dame mourante, bref, le plan parfait. Mais une fois le contrat signé la dame va beaucoup mieux et va transformer leur rêve immobilier en véritable cauchemar.",
       "cast": "",
@@ -358,6 +364,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791880903-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269532-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/ducobu-et-le-fantome-de-saint-potache-47832",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/ducobu-et-le-fantome-de-saint-potache-47832"
+      },
       "film_page_url": "https://www.toulourama.fr/film/ducobu-et-le-fantome-de-saint-potache-2/",
       "synopsis": "C’est Halloween, et Ducobu revient pour une aventure pleine de rires et de mystères ! Le professeur Latouche et Mademoiselle Rateau emménagent dans une maison… hantée par le fantôme d’Anatole, le plus grand cancre de l’histoire de l’école Saint-Potache. Ce fantôme farceur va entraîner Ducobu, Léonie, leurs parents et Kitrish dans une série de péripéties aussi drôles qu’inattendues. Mais attention : à Halloween, tout peut arriver.",
       "cast": "",
@@ -485,6 +494,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880938-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/88be80df88492a191087bc0d2b84c7fc-1024x711.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/les-miserables-48629",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/les-miserables-48629"
+      },
       "film_page_url": "https://www.toulourama.fr/film/les-miserables/",
       "synopsis": "",
       "cast": "",
@@ -684,6 +696,11 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880946-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/69855ba06294a33937eaec32a93bc12f.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/minotaure-51969",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/minotaure-51969",
+        "utopia": "https://www.cinemas-utopia.org/toulouse/",
+        "abc": "https://abc-toulouse.fr/1254-minotaure.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/minotaure/",
       "synopsis": "",
       "cast": "",
@@ -711,7 +728,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261014",
@@ -756,7 +773,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261014",
@@ -801,7 +818,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261015",
@@ -837,7 +854,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261015",
@@ -864,7 +881,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -918,7 +935,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -930,6 +947,11 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791880909-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/garance-1024x682.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/garance-52451",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/garance-52451",
+        "cosmo": "https://www.american-cosmograph.fr/garance.html",
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/garance/",
       "synopsis": "Garance est une jeune actrice alcoolique. Huit ans d’un parcours fait de déménagements, de travail, de rencontres, de fêtes et d’angoisses, de joies et de coups durs… Mais aussi une révolution intime, amicale et sexuelle, un chaos aux allures de « grande récré » où se mêlent autant d’amour que de destruction.",
       "cast": "",
@@ -967,7 +989,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/garance.html"
         },
         {
           "day_id": "20261014",
@@ -976,7 +998,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261014",
@@ -1003,7 +1025,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261014",
@@ -1012,7 +1034,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/garance.html"
         },
         {
           "day_id": "20261014",
@@ -1057,7 +1079,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/garance.html"
         },
         {
           "day_id": "20261015",
@@ -1066,7 +1088,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261015",
@@ -1093,7 +1115,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/garance.html"
         },
         {
           "day_id": "20261016",
@@ -1102,7 +1124,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -1111,7 +1133,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/garance.html"
         },
         {
           "day_id": "20261016",
@@ -1132,6 +1154,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791880942-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791880942-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/malfaisante-49786",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/malfaisante-49786"
+      },
       "film_page_url": "https://www.toulourama.fr/film/malfaisante/",
       "synopsis": "",
       "cast": "",
@@ -1286,6 +1311,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791880974-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269633-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/the-social-reckoning-50113",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/the-social-reckoning-50113"
+      },
       "film_page_url": "https://www.toulourama.fr/film/the-social-reckoning/",
       "synopsis": "Le film s'inspire de l'histoire vraie d'une jeune ingénieure chez Facebook, qui sollicite l'aide d'un journaliste au Wall Street Journal. Ensemble, ils se lancent dans une enquête pour révéler les secrets les mieux gardés du puissant réseau social.voir moins",
       "cast": "",
@@ -1432,6 +1460,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880965-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1790060540-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/primetime-54936",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/primetime-54936"
+      },
       "film_page_url": "https://www.toulourama.fr/film/primetime/",
       "synopsis": "En 2006, Chris Hansen, le présentateur de l'émission To Catch a Predator, entreprend de marquer l’histoire de la télévision.",
       "cast": "",
@@ -1560,6 +1591,10 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880899-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1790060476-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/digger-51293",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/digger-51293",
+        "abc": "https://abc-toulouse.fr/1299-digger.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/digger/",
       "synopsis": "L’homme le plus puissant au monde se lance dans une mission effrénée pour s'ériger en sauveur de l’humanité avant que la catastrophe, qu’il a lui-même déclenchée, n’anéantisse la planète.voir moins",
       "cast": "",
@@ -1752,6 +1787,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880970-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1789455643-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/resident-evil-48830",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/resident-evil-48830"
+      },
       "film_page_url": "https://www.toulourama.fr/film/resident-evil/",
       "synopsis": "Bryan, coursier médical, s'engage dans une course effrénée pour survivre, alors qu'autour de lui le monde s'enfonce dans un chaos total.voir moins",
       "cast": "",
@@ -1889,6 +1927,11 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/07/1791880931-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/07/l_6_-eddy-cinema-beside-productions-regular-production-france-3-cinema-auvergne-rhone-alpes-cinema-rtbf.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/le-corset-50112",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/le-corset-50112",
+        "cosmo": "https://www.american-cosmograph.fr/le-corset.html",
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/le-corset/",
       "synopsis": "",
       "cast": "",
@@ -1925,7 +1968,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "day_id": "20261014",
@@ -1943,7 +1986,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261014",
@@ -1961,7 +2004,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261014",
@@ -1970,7 +2013,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "day_id": "20261015",
@@ -1988,7 +2031,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "day_id": "20261015",
@@ -2015,7 +2058,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "day_id": "20261015",
@@ -2024,7 +2067,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261015",
@@ -2051,7 +2094,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "day_id": "20261016",
@@ -2069,7 +2112,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "day_id": "20261016",
@@ -2087,7 +2130,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -2096,7 +2139,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "day_id": "20261016",
@@ -2114,7 +2157,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -2126,6 +2169,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880950-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269585-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/ni-vue-ni-connue-52015",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/ni-vue-ni-connue-52015"
+      },
       "film_page_url": "https://www.toulourama.fr/film/ni-vue-ni-connue/",
       "synopsis": "Corinne Maclou est figurante. Elle enchaîne les tournages avec l’espoir d’être remarquée et de décrocher enfin un vrai rôle. Lorsque son chemin croise celui de Sandrine Kiberlain et qu’une relation commence à se nouer entre les deux, Corinne espère concrétiser son rêve. Mais la célèbre actrice va-t-elle vraiment l’aider à se faire une place au sein de la grande famille ducinéma ?",
       "cast": "",
@@ -2263,6 +2309,11 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791880955-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1779187704-1-1024x576.jpg",
       "fiche_pathe": "https://www.american-cosmograph.fr/notre-salut.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/notre-salut.html",
+        "utopia": "https://www.cinemas-utopia.org/toulouse/",
+        "pathe": "https://www.pathe.fr/films/notre-salut-52581"
+      },
       "film_page_url": "https://www.toulourama.fr/film/notre-salut/",
       "synopsis": "Septembre 1940, le régime de Pétain se met en place. Henri Marre, 49 ans, débarque à Vichy sans le sou, sans contact, loin de sa femme et ses enfants. Il voit dans la nouvelle administration l’opportunité de trouver enfin la place qu’il mérite. Dans sa valise, son traité politique édité à compte d’auteur, Notre Salut, où il défend ses convictions patriotiques et ses méthodes d'ingénieur. Son credo : « gagner en efficacité » pour relever la France de la débâcle. Mais peut-être qu’Henri cherche avant tout à fuir sa propre débâcle…",
       "cast": "",
@@ -2281,7 +2332,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/notre-salut.html"
         },
         {
           "day_id": "20261014",
@@ -2290,7 +2341,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261014",
@@ -2308,7 +2359,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/notre-salut.html"
         },
         {
           "day_id": "20261014",
@@ -2326,7 +2377,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261014",
@@ -2371,7 +2422,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261015",
@@ -2380,7 +2431,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/notre-salut.html"
         },
         {
           "day_id": "20261016",
@@ -2389,7 +2440,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/notre-salut.html"
         },
         {
           "day_id": "20261016",
@@ -2425,7 +2476,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -2437,6 +2488,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_03.-nivueniconnue_053_tag4171hd-ejeromeprebois.jpg",
       "fiche_pathe": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/ni-vue-ni-connue-2/",
       "synopsis": "",
       "cast": "",
@@ -2453,7 +2507,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "day_id": "20261014",
@@ -2462,7 +2516,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "day_id": "20261015",
@@ -2471,7 +2525,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "day_id": "20261015",
@@ -2480,7 +2534,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "day_id": "20261016",
@@ -2489,7 +2543,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "day_id": "20261016",
@@ -2498,7 +2552,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         }
       ]
     },
@@ -2510,6 +2564,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/butterfly20aff20site-1-220x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/cacd388273de6be0ee78334d0f607565.jpg",
       "fiche_pathe": "https://abc-toulouse.fr/1253-butterfly-jam.html",
+      "fiche_by_cinema": {
+        "abc": "https://abc-toulouse.fr/1253-butterfly-jam.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/butterfly-jam/",
       "synopsis": "",
       "cast": "",
@@ -2565,6 +2622,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880893-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/172151-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/cars",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/cars"
+      },
       "film_page_url": "https://www.toulourama.fr/film/cars/",
       "synopsis": "Flash McQueen, une splendide voiture de course toute neuve promise au succès, découvre que dans la vie, ce n'est pas de franchir la ligne d'arrivée qui compte, mais le parcours que l'on a suivi. Parti pour participer à la prestigieuse Piston Cup, il atterrit suite à une déviation dans la petite ville tranquille de Radiator Springs, sur la Route 66. McQueen va apprendre à connaître Sally (une élégante Porsche 2002), Doc Hudson (une Hudson Hornet 1951 au passé mystérieux), et Mater (une dépanneuse rouillée mais à qui on peut faire confiance). Ils vont l'aider à découvrir qu'il y a des choses plus importantes que les trophées, la gloire et les sponsors...",
       "cast": "",
@@ -2639,6 +2699,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/espece20aff20site-1-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/l_retouche-especeexplosive-photogramme-tiff-16bits-3840x2160-a-0013c009-250925-172901-h1ekt-ec-rec709g24-20260413-copie_o_1joget83i1fgtlqu1sqoakb188lj.jpg",
       "fiche_pathe": "https://abc-toulouse.fr/1250-l-espece-explosive.html",
+      "fiche_by_cinema": {
+        "abc": "https://abc-toulouse.fr/1250-l-espece-explosive.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/lespece-explosive/",
       "synopsis": "",
       "cast": "",
@@ -2712,6 +2775,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/MQRPCN5C-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/l_main-still_lf_dogs_16-9-scaled-1.jpg",
       "fiche_pathe": "https://www.american-cosmograph.fr/low-expectations.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/low-expectations.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/low-expectations/",
       "synopsis": "",
       "cast": "",
@@ -2728,7 +2794,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/low-expectations.html"
         },
         {
           "day_id": "20261014",
@@ -2737,7 +2803,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/low-expectations.html"
         },
         {
           "day_id": "20261015",
@@ -2746,7 +2812,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/low-expectations.html"
         },
         {
           "day_id": "20261016",
@@ -2755,7 +2821,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/low-expectations.html"
         }
       ]
     },
@@ -2767,6 +2833,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/S7INDHFH-200x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/797dbb416cfcf6305ccf076e0b13e6a9.jpg",
       "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "fiche_by_cinema": {
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/qui-vit-encore/",
       "synopsis": "",
       "cast": "",
@@ -2783,7 +2852,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261015",
@@ -2792,7 +2861,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -2801,7 +2870,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -2813,6 +2882,10 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/46d4170eaca90b7bd1dae27db18ed739-5-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/l_dsc08181lucas-charrier.jpg",
       "fiche_pathe": "https://www.american-cosmograph.fr/la-vie-dune-femme.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/la-vie-dune-femme.html",
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/la-vie-dune-femme-2/",
       "synopsis": "",
       "cast": "",
@@ -2830,7 +2903,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/la-vie-dune-femme.html"
         },
         {
           "day_id": "20261014",
@@ -2839,7 +2912,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261015",
@@ -2848,7 +2921,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261015",
@@ -2857,7 +2930,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/la-vie-dune-femme.html"
         },
         {
           "day_id": "20261016",
@@ -2866,7 +2939,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -2875,7 +2948,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/la-vie-dune-femme.html"
         }
       ]
     },
@@ -2887,6 +2960,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/petite20casbah20aff20site-225x300.jpg",
       "backdrop": "",
       "fiche_pathe": "https://abc-toulouse.fr/1281-petite-casbah.html",
+      "fiche_by_cinema": {
+        "abc": "https://abc-toulouse.fr/1281-petite-casbah.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/petite-casbah/",
       "synopsis": "",
       "cast": "",
@@ -2915,6 +2991,10 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/25065d844cf983b62abba5f0ca2c1a64-2-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/95ef5571a75f0a3b926f5126d9c8571c-1024x615.jpg",
       "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "fiche_by_cinema": {
+        "utopia": "https://www.cinemas-utopia.org/toulouse/",
+        "abc": "https://abc-toulouse.fr/1298-raison-et-sentiments.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/raison-et-sentiments/",
       "synopsis": "",
       "cast": "",
@@ -2932,7 +3012,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261014",
@@ -2950,7 +3030,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261015",
@@ -2968,7 +3048,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -2995,7 +3075,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -3007,6 +3087,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/695460e78e996175a81de234a0603f87-3-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/319f3d6b88de3f1a691794557e6c8659-1024x554.jpg",
       "fiche_pathe": "https://abc-toulouse.fr/1212-le-monde-a-l-envers.html",
+      "fiche_by_cinema": {
+        "abc": "https://abc-toulouse.fr/1212-le-monde-a-l-envers.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/le-monde-a-lenvers/",
       "synopsis": "",
       "cast": "",
@@ -3035,6 +3118,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/le20jour20de20aff20site-225x300.jpg",
       "backdrop": "",
       "fiche_pathe": "https://abc-toulouse.fr/1313-le-jour-de-son-retour.html",
+      "fiche_by_cinema": {
+        "abc": "https://abc-toulouse.fr/1313-le-jour-de-son-retour.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/le-jour-de-son-retour/",
       "synopsis": "",
       "cast": "",
@@ -3108,6 +3194,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_bornlm1_visual04.jpg",
       "fiche_pathe": "https://www.american-cosmograph.fr/joyeuse-jungle.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/joyeuse-jungle.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/joyeuse-jungle/",
       "synopsis": "",
       "cast": "",
@@ -3124,7 +3213,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/joyeuse-jungle.html"
         }
       ]
     },
@@ -3136,6 +3225,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/15IUEFH2-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/96b6b029010c053cf9333506f9e1908d-1024x576.jpg",
       "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "fiche_by_cinema": {
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/le-cygne-et-lenfant/",
       "synopsis": "",
       "cast": "",
@@ -3152,7 +3244,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -3164,6 +3256,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880913-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1789455584-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/heart-of-the-beast-52822",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/heart-of-the-beast-52822"
+      },
       "film_page_url": "https://www.toulourama.fr/film/heart-of-the-beast/",
       "synopsis": "Après un terrible crash d’avion, James Belmont, ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujours à ses côtés. Livrés à eux-mêmes dans une nature aussi magnifique qu’impitoyable, ils devront puiser dans leurs dernières forces pour survivre ensemble.blue text-uppercase see-more> voir moins",
       "cast": "",
@@ -3256,6 +3351,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/VSN7ZJ48-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_zejtune_01_6459x3491_300ppi.jpg",
       "fiche_pathe": "https://www.american-cosmograph.fr/le-chant-des-oliviers.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/le-chant-des-oliviers.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/le-chant-des-oliviers/",
       "synopsis": "",
       "cast": "",
@@ -3272,7 +3370,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-chant-des-oliviers.html"
         }
       ]
     },
@@ -3284,6 +3382,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/memoire20de20fille20aff20site-2-221x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1779187683-1-1024x576.jpg",
       "fiche_pathe": "https://abc-toulouse.fr/1300-memoire-de-fille.html",
+      "fiche_by_cinema": {
+        "abc": "https://abc-toulouse.fr/1300-memoire-de-fille.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/memoire-de-fille/",
       "synopsis": "Annie Ernaux est sollicitée pour une signature de son dernier ouvrage dans la ville de son enfance, Rouen. Alors qu’elle s’y rend, elle est prise d’un vertige et replonge dans le souvenir de l’été 1958, celui de sa première nuit avec un homme. Nuit dont l’onde de choc s’est propagée violemment dans son corps et sur le reste de son existence.",
       "cast": "",
@@ -3349,6 +3450,10 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/e5a1946e5fd253382f636dc7a26252db-3-226x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/l_fini-de-rire_visuel1.png",
       "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "fiche_by_cinema": {
+        "utopia": "https://www.cinemas-utopia.org/toulouse/",
+        "cosmo": "https://www.american-cosmograph.fr/fini-de-rire-lhumour-politique-au-garde-a-vous.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/fini-de-rire-lhumour-politique-au-garde-a-vous/",
       "synopsis": "",
       "cast": "",
@@ -3366,7 +3471,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261014",
@@ -3375,7 +3480,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/fini-de-rire-lhumour-politique-au-garde-a-vous.html"
         },
         {
           "day_id": "20261015",
@@ -3384,7 +3489,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/fini-de-rire-lhumour-politique-au-garde-a-vous.html"
         },
         {
           "day_id": "20261015",
@@ -3393,7 +3498,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -3402,7 +3507,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -3414,6 +3519,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_aprile-1-studiocanal-malavida.png",
       "fiche_pathe": "https://www.american-cosmograph.fr/aprile.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/aprile.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/aprile/",
       "synopsis": "",
       "cast": "",
@@ -3430,7 +3538,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/aprile.html"
         },
         {
           "day_id": "20261016",
@@ -3439,7 +3547,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/aprile.html"
         }
       ]
     },
@@ -3451,6 +3559,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_ovla9.png",
       "fiche_pathe": "https://www.american-cosmograph.fr/ou-vont-les-ames.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/ou-vont-les-ames.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/ou-vont-les-ames/",
       "synopsis": "",
       "cast": "",
@@ -3467,7 +3578,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ou-vont-les-ames.html"
         },
         {
           "day_id": "20261015",
@@ -3476,7 +3587,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ou-vont-les-ames.html"
         },
         {
           "day_id": "20261016",
@@ -3485,7 +3596,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ou-vont-les-ames.html"
         }
       ]
     },
@@ -3497,6 +3608,10 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/07/1791880922-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/07/1783413119-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/l-odyssee-43836",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/l-odyssee-43836",
+        "cosmo": "https://www.american-cosmograph.fr/l-odyssee.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/lodyssee/",
       "synopsis": "Découvrez quelques heures avant sa sortie la nouvelle fresque épique de Christopher Nolan, adaptée du poème L’Odyssée d’Homère ! Dans la nuit du mardi 14 au mercredi 15 juillet, à 00h05.",
       "cast": "",
@@ -3551,7 +3666,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/l-odyssee.html"
         }
       ]
     },
@@ -3563,6 +3678,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791880958-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1777988434-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/obsession-50502",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/obsession-50502"
+      },
       "film_page_url": "https://www.toulourama.fr/film/obsession/",
       "synopsis": "Et si vous pouviez réaliser votre rêve le plus fou ?Un jeune introverti met la main sur un objet magique capable d’exaucer n’importe quel souhait.Son crush de toujours tombe alors raide dingue de lui… jusqu’à l’obsession la plus totale.Faites attention à ce que vous souhaitez !",
       "cast": "",
@@ -3619,6 +3737,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880919-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1788862138-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/l-invitation-52233",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/l-invitation-52233"
+      },
       "film_page_url": "https://www.toulourama.fr/film/linvitation/",
       "synopsis": "Angela et Joe invitent leurs mystérieux nouveaux voisins du dessus à dîner. La soirée va alors rapidement faire voler en éclats toutes leurs certitudes.",
       "cast": "",
@@ -3675,6 +3796,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/les20survivants20aff20site-5-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/4529e6036bdeeac1829ef986dd284dbb-1024x574.jpg",
       "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "fiche_by_cinema": {
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/les-survivants-du-che/",
       "synopsis": "",
       "cast": "",
@@ -3691,7 +3815,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -3700,7 +3824,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -3712,6 +3836,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/07/R16U0ILS-1-221x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/07/l_photo-2.jpg",
       "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "fiche_by_cinema": {
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/trois-adieux/",
       "synopsis": "",
       "cast": "",
@@ -3728,7 +3855,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -3737,7 +3864,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -3749,6 +3876,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/a0789820a75681726562476287df7cfd-1-204x300.jpg",
       "backdrop": "",
       "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "fiche_by_cinema": {
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/maison-de-poupee/",
       "synopsis": "",
       "cast": "",
@@ -3765,7 +3895,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -3777,6 +3907,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/NEJ0JU13-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/l_les-roches-rouges-1-copyright-rosa-filmes.jpg",
       "fiche_pathe": "https://www.american-cosmograph.fr/les-roches-rouges.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/les-roches-rouges.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/les-roches-rouges/",
       "synopsis": "",
       "cast": "",
@@ -3793,7 +3926,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/les-roches-rouges.html"
         }
       ]
     },
@@ -3805,6 +3938,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/MOT3FDZP-203x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/50bea34a8346006f09aa8fa82273c627.jpg",
       "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "fiche_by_cinema": {
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/ton-animal-maternel/",
       "synopsis": "",
       "cast": "",
@@ -3821,7 +3957,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -3830,7 +3966,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -3842,6 +3978,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/00949f4ef8372d0da903da48aa36c1bf-3-221x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/l_001_maya-chameli-pirati-and-joon-underground-talkies-nepal-_-les-valseurs-_-dgs.jpg",
       "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "fiche_by_cinema": {
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/les-elephants-dans-la-brume/",
       "synopsis": "",
       "cast": "",
@@ -3858,7 +3997,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -3867,7 +4006,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -3879,6 +4018,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/9c4daa6e94f7107c83f7d732700c44a0-9-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/1781591862-1-1024x576.jpg",
       "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "fiche_by_cinema": {
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/la-soiree-des-passionnes-de-la-comedie-francaise/",
       "synopsis": "",
       "cast": "",
@@ -3895,7 +4037,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         }
       ]
     },
@@ -3907,6 +4049,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/87LZL48Z-1-221x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1779187730-1-1024x576.jpg",
       "fiche_pathe": "https://www.american-cosmograph.fr/soudain.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/soudain.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/soudain/",
       "synopsis": "",
       "cast": "",
@@ -3923,7 +4068,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/soudain.html"
         }
       ]
     },
@@ -3935,6 +4080,10 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/7da334b5a024f1960d11cefab25107bc-4-221x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/1787064022-1-1024x576.jpg",
       "fiche_pathe": "https://abc-toulouse.fr/1230-fjord.html",
+      "fiche_by_cinema": {
+        "abc": "https://abc-toulouse.fr/1230-fjord.html",
+        "utopia": "https://www.cinemas-utopia.org/toulouse/"
+      },
       "film_page_url": "https://www.toulourama.fr/film/fjord/",
       "synopsis": "",
       "cast": "",
@@ -3961,7 +4110,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "day_id": "20261016",
@@ -3982,6 +4131,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1788862131-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1779187638-1-1024x576.jpg",
       "fiche_pathe": "https://www.american-cosmograph.fr/jim-queen.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/jim-queen.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/jim-queen/",
       "synopsis": "",
       "cast": "",
@@ -3998,7 +4150,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/jim-queen.html"
         }
       ]
     },
@@ -4010,6 +4162,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880916-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/0d3ca8ee6f891a65a20a7846e51d5288-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/karma-49700",
+      "fiche_by_cinema": {
+        "pathe": "https://www.pathe.fr/films/karma-49700"
+      },
       "film_page_url": "https://www.toulourama.fr/film/karma/",
       "synopsis": "",
       "cast": "",
@@ -4056,6 +4211,9 @@ window.CINEMA_DATA = {
       "poster_toulourama": "",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_visuel_-_kate_bush_-__signature.png",
       "fiche_pathe": "https://www.american-cosmograph.fr/l-odyssee-musicale-de-kate-bush.html",
+      "fiche_by_cinema": {
+        "cosmo": "https://www.american-cosmograph.fr/l-odyssee-musicale-de-kate-bush.html"
+      },
       "film_page_url": "https://www.toulourama.fr/film/lodyssee-musicale-de-kate-bush/",
       "synopsis": "",
       "cast": "",
@@ -4072,7 +4230,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/l-odyssee-musicale-de-kate-bush.html"
         }
       ]
     }
@@ -4245,7 +4403,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/notre-salut.html"
         },
         {
           "film_id": "ni-vue-ni-connue-2",
@@ -4256,7 +4414,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "film_id": "garance",
@@ -4267,7 +4425,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/garance.html"
         },
         {
           "film_id": "notre-salut",
@@ -4278,7 +4436,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "garance",
@@ -4289,7 +4447,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "minotaure",
@@ -4300,7 +4458,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "butterfly-jam",
@@ -4443,7 +4601,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/low-expectations.html"
         },
         {
           "film_id": "le-corset",
@@ -4487,7 +4645,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "film_id": "qui-vit-encore",
@@ -4498,7 +4656,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "la-vie-dune-femme-2",
@@ -4509,7 +4667,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/la-vie-dune-femme.html"
         },
         {
           "film_id": "petite-casbah",
@@ -4553,7 +4711,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "malfaisante",
@@ -4575,7 +4733,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
@@ -4641,7 +4799,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/notre-salut.html"
         },
         {
           "film_id": "the-social-reckoning",
@@ -4663,7 +4821,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "film_id": "digger",
@@ -4718,7 +4876,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/joyeuse-jungle.html"
         },
         {
           "film_id": "le-cygne-et-lenfant",
@@ -4729,7 +4887,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "les-miserables",
@@ -4773,7 +4931,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "verity",
@@ -4828,7 +4986,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "heart-of-the-beast",
@@ -4861,7 +5019,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "resident-evil",
@@ -4894,7 +5052,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-chant-des-oliviers.html"
         },
         {
           "film_id": "la-maison-de-nos-reves",
@@ -4938,7 +5096,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/garance.html"
         },
         {
           "film_id": "fini-de-rire-lhumour-politique-au-garde-a-vous",
@@ -4949,7 +5107,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "les-miserables",
@@ -4971,7 +5129,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/low-expectations.html"
         },
         {
           "film_id": "le-corset",
@@ -5070,7 +5228,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/aprile.html"
         },
         {
           "film_id": "minotaure",
@@ -5081,7 +5239,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "notre-salut",
@@ -5169,7 +5327,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "le-corset",
@@ -5180,7 +5338,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "digger",
@@ -5202,7 +5360,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "film_id": "le-jour-de-son-retour",
@@ -5235,7 +5393,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ou-vont-les-ames.html"
         },
         {
           "film_id": "lodyssee",
@@ -5290,7 +5448,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/fini-de-rire-lhumour-politique-au-garde-a-vous.html"
         },
         {
           "film_id": "verity",
@@ -5538,7 +5696,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "la-vie-dune-femme-2",
@@ -5549,7 +5707,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "qui-vit-encore",
@@ -5560,7 +5718,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "le-jour-de-son-retour",
@@ -5637,7 +5795,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "film_id": "la-maison-de-nos-reves",
@@ -5692,7 +5850,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ou-vont-les-ames.html"
         },
         {
           "film_id": "trois-adieux",
@@ -5703,7 +5861,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "minotaure",
@@ -5725,7 +5883,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/fini-de-rire-lhumour-politique-au-garde-a-vous.html"
         },
         {
           "film_id": "maison-de-poupee",
@@ -5736,7 +5894,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "le-corset",
@@ -5780,7 +5938,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "verity",
@@ -5846,7 +6004,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/la-vie-dune-femme.html"
         },
         {
           "film_id": "the-social-reckoning",
@@ -5890,7 +6048,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "film_id": "raison-et-sentiments",
@@ -5912,7 +6070,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/les-roches-rouges.html"
         },
         {
           "film_id": "ton-animal-maternel",
@@ -5923,7 +6081,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "la-maison-de-nos-reves",
@@ -5945,7 +6103,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "digger",
@@ -6022,7 +6180,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "les-miserables",
@@ -6066,7 +6224,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "film_id": "resident-evil",
@@ -6099,7 +6257,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/low-expectations.html"
         },
         {
           "film_id": "raison-et-sentiments",
@@ -6110,7 +6268,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "heart-of-the-beast",
@@ -6165,7 +6323,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/garance.html"
         },
         {
           "film_id": "fini-de-rire-lhumour-politique-au-garde-a-vous",
@@ -6176,7 +6334,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "malfaisante",
@@ -6198,7 +6356,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "butterfly-jam",
@@ -6275,7 +6433,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "film_id": "verity",
@@ -6330,7 +6488,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/soudain.html"
         },
         {
           "film_id": "notre-salut",
@@ -6352,7 +6510,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "minotaure",
@@ -6363,7 +6521,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "heart-of-the-beast",
@@ -6418,7 +6576,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/notre-salut.html"
         },
         {
           "film_id": "garance",
@@ -6429,7 +6587,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "les-miserables",
@@ -6506,7 +6664,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/jim-queen.html"
         },
         {
           "film_id": "verity",
@@ -6765,7 +6923,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "film_id": "les-elephants-dans-la-brume",
@@ -6776,7 +6934,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "minotaure",
@@ -6787,7 +6945,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "ton-animal-maternel",
@@ -6798,7 +6956,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "notre-salut",
@@ -6809,7 +6967,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/notre-salut.html"
         },
         {
           "film_id": "ni-vue-ni-connue-2",
@@ -6820,7 +6978,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "film_id": "le-jour-de-son-retour",
@@ -6952,7 +7110,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/aprile.html"
         },
         {
           "film_id": "le-corset",
@@ -7007,7 +7165,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "trois-adieux",
@@ -7018,7 +7176,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "garance",
@@ -7051,7 +7209,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "le-corset",
@@ -7062,7 +7220,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "film_id": "fjord",
@@ -7106,7 +7264,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/l-odyssee.html"
         },
         {
           "film_id": "le-corset",
@@ -7128,7 +7286,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/garance.html"
         },
         {
           "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
@@ -7161,7 +7319,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "digger",
@@ -7227,7 +7385,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "verity",
@@ -7260,7 +7418,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/la-vie-dune-femme.html"
         },
         {
           "film_id": "primetime",
@@ -7282,7 +7440,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
@@ -7348,7 +7506,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ou-vont-les-ames.html"
         },
         {
           "film_id": "la-maison-de-nos-reves",
@@ -7370,7 +7528,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "ni-vue-ni-connue-2",
@@ -7381,7 +7539,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html"
         },
         {
           "film_id": "les-miserables",
@@ -7403,7 +7561,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/le-corset.html"
         },
         {
           "film_id": "raison-et-sentiments",
@@ -7414,7 +7572,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "le-corset",
@@ -7458,7 +7616,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "verity",
@@ -7590,7 +7748,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/low-expectations.html"
         },
         {
           "film_id": "notre-salut",
@@ -7601,7 +7759,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "garance",
@@ -7612,7 +7770,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/garance.html"
         },
         {
           "film_id": "lespece-explosive",
@@ -7634,7 +7792,7 @@ window.CINEMA_DATA = {
           "cinema": "American Cosmograph",
           "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.american-cosmograph.fr/l-odyssee-musicale-de-kate-bush.html"
         },
         {
           "film_id": "minotaure",
@@ -7645,7 +7803,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VO",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "karma",
@@ -7689,7 +7847,7 @@ window.CINEMA_DATA = {
           "cinema": "Utopia",
           "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": ""
+          "booking_url": "https://www.cinemas-utopia.org/toulouse/"
         },
         {
           "film_id": "obsession",

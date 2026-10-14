@@ -7,8 +7,8 @@
   'use strict';
 
   const STORAGE_KEY = 'cinematch_preferences_v1';
-  const MULTI_CACHE_KEY = 'cinematch_db_multi_v2';
-  const LAST_REFRESH_KEY = 'cinematch_last_refresh_multi_v2';
+  const MULTI_CACHE_KEY = 'cinematch_db_multi_v3';
+  const LAST_REFRESH_KEY = 'cinematch_last_refresh_multi_v3';
   const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx4PUen42hiYlpHtgSKwAzJYEtHj-LHoCFbC8un1R_NfAFb7wA3CwmQzqtgd9l2ou7Z/exec';
   const OMDB_API_KEY = 'cd47ed88';
 
@@ -18,6 +18,12 @@
     cosmo: 'Cosmo',
     abc: 'ABC',
     utopia: 'Utopia'
+  };
+  const CINEMA_FALLBACK_URLS = {
+    pathe: 'https://www.pathe.fr/cinemas/cinema-pathe-wilson',
+    cosmo: 'https://www.american-cosmograph.fr/',
+    abc: 'https://abc-toulouse.fr/',
+    utopia: 'https://www.cinemas-utopia.org/toulouse/'
   };
   const NAV_LABELS = {
     all: 'Séances',
@@ -46,6 +52,80 @@
     if (lower.includes('abc')) return 'abc';
     if (lower.includes('utopia')) return 'utopia';
     return 'pathe';
+  }
+
+  function parseTimeMinutes(timeStr) {
+    if (!timeStr) return null;
+    const match = String(timeStr).match(/(\d{1,2})[:hH](\d{2})/);
+    if (match) {
+      return parseInt(match[1], 10) * 60 + parseInt(match[2], 10);
+    }
+    const compact = String(timeStr).match(/^(\d{2})(\d{2})$/);
+    if (compact) {
+      return parseInt(compact[1], 10) * 60 + parseInt(compact[2], 10);
+    }
+    return null;
+  }
+
+  function getDayOfWeek(dayId, dayTitle) {
+    const titleLower = String(dayTitle || '').toLowerCase();
+    if (titleLower.includes('lundi')) return 1;
+    if (titleLower.includes('mardi')) return 2;
+    if (titleLower.includes('mercredi')) return 3;
+    if (titleLower.includes('jeudi')) return 4;
+    if (titleLower.includes('vendredi')) return 5;
+    if (titleLower.includes('samedi')) return 6;
+    if (titleLower.includes('dimanche')) return 0;
+
+    const idStr = String(dayId || '');
+    if (/^\d{8}$/.test(idStr)) {
+      const y = parseInt(idStr.slice(0, 4), 10);
+      const m = parseInt(idStr.slice(4, 6), 10) - 1;
+      const d = parseInt(idStr.slice(6, 8), 10);
+      return new Date(y, m, d).getDay();
+    }
+    return null;
+  }
+
+  function computeSeancePrice(seance, currentDay, cinemaId, earliestUtopiaMinutes) {
+    const dayId = seance.day_id || (currentDay && currentDay.day_id);
+    const dayTitle = seance.day_title || (currentDay && currentDay.day_title);
+    const dayOfWeek = getDayOfWeek(dayId, dayTitle);
+    const minutes = parseTimeMinutes(seance.time);
+    const isWednesday = dayOfWeek === 3;
+    const isSunday = dayOfWeek === 0;
+    const isBefore13h = minutes !== null && minutes < 13 * 60;
+
+    if (cinemaId === 'abc') {
+      // ABC : Plein tarif 9 € | 5 € le mercredi, le dimanche matin et tous les jours avant 13h
+      if (isWednesday || isBefore13h || (isSunday && isBefore13h)) {
+        return { price: '5 €', isReduced: true, label: 'Tarif réduit (5 €)' };
+      }
+      return { price: '9 €', isReduced: false, label: 'Plein tarif (9 €)' };
+    }
+
+    if (cinemaId === 'cosmo') {
+      // American Cosmograph : Normal 8 € | Happy hours 4,50 € (mercredi, tous les jours avant 13h, mardi et jeudi après 21h)
+      const isTueOrThuAfter21h = (dayOfWeek === 2 || dayOfWeek === 4) && minutes !== null && minutes >= 21 * 60;
+      if (isWednesday || isBefore13h || isTueOrThuAfter21h) {
+        return { price: '4,50 €', isReduced: true, label: 'Happy Hours (4,50 €)' };
+      }
+      return { price: '8 €', isReduced: false, label: 'Tarif normal (8 €)' };
+    }
+
+    if (cinemaId === 'utopia') {
+      // Utopia Borderouge : Normal 8 € | 5 € la première séance de la journée
+      const isFirstSession = minutes !== null && (
+        (earliestUtopiaMinutes !== null && minutes === earliestUtopiaMinutes) ||
+        minutes < 13 * 60
+      );
+      if (isFirstSession) {
+        return { price: '5 €', isReduced: true, label: '1re séance (5 €)' };
+      }
+      return { price: '8 €', isReduced: false, label: 'Tarif normal (8 €)' };
+    }
+
+    return null;
   }
 
   function cleanGenreText(rawGenre) {
@@ -658,10 +738,36 @@
     const currentDay = state.days[state.selectedDayIndex];
     let seances = currentDay.seances || [];
 
+    // Calcul de la première séance de la journée à Utopia (sur l'ensemble de la journée avant filtrage)
+    const fullDayObj = state.allDays.find(d => d.day_id === currentDay.day_id) || currentDay;
+    let earliestUtopiaMinutes = null;
+    (fullDayObj.seances || []).forEach(s => {
+      const cid = s.cinema_id || normalizeCinemaId(s.cinema);
+      if (cid === 'utopia') {
+        const mins = parseTimeMinutes(s.time);
+        if (mins !== null && (earliestUtopiaMinutes === null || mins < earliestUtopiaMinutes)) {
+          earliestUtopiaMinutes = mins;
+        }
+      }
+    });
+
     function isAfter18h(timeStr) {
-      if (!timeStr) return false;
-      const match = timeStr.match(/(\d{1,2})[:hH](\d{2})/);
-      return match ? parseInt(match[1], 10) >= 18 : false;
+      const mins = parseTimeMinutes(timeStr);
+      return mins !== null && mins >= 18 * 60;
+    }
+
+    function resolveBookingUrl(seance, movie, cinemaId) {
+      if (seance.booking_url && seance.booking_url.trim()) return seance.booking_url.trim();
+      if (movie && movie.fiche_by_cinema && movie.fiche_by_cinema[cinemaId]) {
+        return movie.fiche_by_cinema[cinemaId];
+      }
+      if (movie && movie.fiche_pathe && movie.fiche_pathe.trim()) {
+        return movie.fiche_pathe.trim();
+      }
+      if (movie && movie.film_page_url && movie.film_page_url.trim()) {
+        return movie.film_page_url.trim();
+      }
+      return CINEMA_FALLBACK_URLS[cinemaId] || 'https://www.toulourama.fr/';
     }
 
     if (state.scheduleFilters.has('after18')) {
@@ -705,6 +811,8 @@
       const isVost = version.includes('VO');
       const cinemaId = seance.cinema_id || normalizeCinemaId(seance.cinema);
       const cinemaLabel = CINEMA_SHORT_NAMES[cinemaId] || seance.cinema || 'Ciné';
+      const priceInfo = computeSeancePrice(seance, currentDay, cinemaId, earliestUtopiaMinutes);
+      const bookingUrl = resolveBookingUrl(seance, movie, cinemaId);
 
       const metaItems = [];
       if (movie && movie.duration) metaItems.push(movie.duration);
@@ -734,11 +842,10 @@
           <button class="btn-icon-circle btn-trailer-quick" type="button" title="Bande-annonce">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
           </button>
-          ${seance.booking_url ? `
-            <a href="${seance.booking_url}" target="_blank" class="btn-book" rel="noopener" title="Réserver">
-              Billet
-            </a>
-          ` : ''}
+          <a href="${bookingUrl}" target="_blank" class="btn-book ${priceInfo && priceInfo.isReduced ? 'btn-book-reduced' : ''}" rel="noopener" title="${priceInfo ? `Réserver — ${priceInfo.label}` : 'Réserver'}">
+            <span>Billet</span>
+            ${priceInfo ? `<span class="btn-book-price">${priceInfo.price}</span>` : ''}
+          </a>
         </div>
       `;
 
@@ -1034,11 +1141,34 @@
         )
       );
 
+      // Indexer les URLs de réservation existantes (notamment issues de movies_data.js)
+      const knownBookingBySeance = new Map();
+      const registerKnownDays = (daysList) => {
+        (daysList || []).forEach(d => {
+          (d.seances || []).forEach(s => {
+            if (s.booking_url && s.booking_url.trim()) {
+              const cid = s.cinema_id || normalizeCinemaId(s.cinema);
+              knownBookingBySeance.set(`${d.day_id}|${s.film_id}|${s.time}|${cid}`, s.booking_url.trim());
+            }
+          });
+        });
+      };
+      if (window.CINEMA_DATA && window.CINEMA_DATA.days) {
+        registerKnownDays(window.CINEMA_DATA.days);
+      }
+      registerKnownDays(state.allDays);
+
       const moviesMap = new Map();
-      // Conserver les métadonnées existantes (synopsis/imdb) déjà connues
-      state.allMovies.forEach(m => moviesMap.set(m.id, { ...m, cinemas: [], seances: [] }));
+      // Conserver les métadonnées existantes (synopsis/imdb/fiche_by_cinema) déjà connues
+      state.allMovies.forEach(m => moviesMap.set(m.id, {
+        ...m,
+        fiche_by_cinema: { ...(m.fiche_by_cinema || {}) },
+        cinemas: [],
+        seances: []
+      }));
 
       const daysMap = new Map();
+      const ficheByFilmCinema = new Map();
 
       let hasValidData = false;
 
@@ -1047,12 +1177,30 @@
         hasValidData = true;
 
         data.movies.forEach(m => {
+          if (m.fiche_pathe) {
+            ficheByFilmCinema.set(`${m.id}|${cid}`, m.fiche_pathe);
+          }
           const existing = moviesMap.get(m.id);
+          const resolveSeanceBooking = (s) => {
+            if (s.booking_url && s.booking_url.trim()) return s.booking_url.trim();
+            const known = knownBookingBySeance.get(`${s.day_id}|${m.id}|${s.time}|${cid}`);
+            if (known) return known;
+            if (m.fiche_pathe) return m.fiche_pathe;
+            return CINEMA_FALLBACK_URLS[cid];
+          };
+
           if (!existing) {
+            const ficheByCinema = {};
+            if (m.fiche_pathe) ficheByCinema[cid] = m.fiche_pathe;
             moviesMap.set(m.id, {
               ...m,
+              fiche_by_cinema: ficheByCinema,
               cinemas: [cid],
-              seances: (m.seances || []).map(s => ({ ...s, cinema_id: cid }))
+              seances: (m.seances || []).map(s => ({
+                ...s,
+                cinema_id: cid,
+                booking_url: resolveSeanceBooking(s)
+              }))
             });
           } else {
             if (!existing.title && m.title) existing.title = m.title;
@@ -1062,8 +1210,14 @@
             if (!existing.synopsis && m.synopsis) existing.synopsis = m.synopsis;
             if (!existing.genre && m.genre) existing.genre = m.genre;
             if (!existing.imdb && m.imdb) existing.imdb = m.imdb;
+            if (!existing.fiche_by_cinema) existing.fiche_by_cinema = {};
+            if (m.fiche_pathe) existing.fiche_by_cinema[cid] = m.fiche_pathe;
             if (!existing.cinemas.includes(cid)) existing.cinemas.push(cid);
-            const taggedSeances = (m.seances || []).map(s => ({ ...s, cinema_id: cid }));
+            const taggedSeances = (m.seances || []).map(s => ({
+              ...s,
+              cinema_id: cid,
+              booking_url: resolveSeanceBooking(s)
+            }));
             existing.seances.push(...taggedSeances);
           }
         });
@@ -1078,9 +1232,14 @@
           }
           const dEntry = daysMap.get(day.day_id);
           (day.seances || []).forEach(s => {
+            const resolvedUrl = (s.booking_url && s.booking_url.trim())
+              || knownBookingBySeance.get(`${day.day_id}|${s.film_id}|${s.time}|${cid}`)
+              || ficheByFilmCinema.get(`${s.film_id}|${cid}`)
+              || CINEMA_FALLBACK_URLS[cid];
             dEntry.seances.push({
               ...s,
-              cinema_id: cid
+              cinema_id: cid,
+              booking_url: resolvedUrl
             });
           });
         });

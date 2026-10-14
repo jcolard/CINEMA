@@ -118,8 +118,9 @@ def main():
             image = s.get("data-image", "")
             fiche_pathe = s.get("data-fiche-film", "")
             booking_btn = s.select_one("a.reservation")
-            booking_url = booking_btn.get("href") if booking_btn else ""
+            raw_booking = booking_btn.get("href") if booking_btn else ""
             film_page_url = f"https://www.toulourama.fr/film/{slug}/"
+            booking_url = raw_booking or fiche_pathe or film_page_url
 
             if slug not in movies_dict:
                 prev = existing_movies.get(slug, {})
@@ -131,6 +132,7 @@ def main():
                     "poster_toulourama": affiche or prev.get("poster_toulourama", ""),
                     "backdrop": image or prev.get("backdrop", ""),
                     "fiche_pathe": fiche_pathe or prev.get("fiche_pathe", ""),
+                    "fiche_by_cinema": prev.get("fiche_by_cinema", {}),
                     "film_page_url": film_page_url,
                     "synopsis": prev.get("synopsis", ""),
                     "cast": prev.get("cast", ""),
@@ -139,6 +141,9 @@ def main():
                     "cinemas": [],
                     "seances": []
                 }
+
+            if fiche_pathe:
+                movies_dict[slug].setdefault("fiche_by_cinema", {})[cinema_id] = fiche_pathe
 
             if cinema_id not in movies_dict[slug]["cinemas"]:
                 movies_dict[slug]["cinemas"].append(cinema_id)

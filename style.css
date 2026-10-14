@@ -519,16 +519,31 @@ body {
   text-decoration: none;
   font-size: 0.72rem;
   font-weight: 700;
-  padding: 6px 11px;
+  padding: 5px 10px;
   border-radius: var(--radius-full);
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  transition: opacity 0.15s ease;
+  gap: 5px;
+  white-space: nowrap;
+  transition: opacity 0.15s ease, transform 0.12s ease;
 }
 
 .btn-book:hover {
-  opacity: 0.9;
+  opacity: 0.92;
+}
+
+.btn-book-price {
+  background: rgba(0, 0, 0, 0.28);
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-size: 0.67rem;
+  font-weight: 800;
+  letter-spacing: -0.2px;
+}
+
+.btn-book.btn-book-reduced .btn-book-price {
+  color: #fde047;
+  background: rgba(0, 0, 0, 0.36);
 }
 
 /* ==========================================================================
