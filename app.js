@@ -1,16 +1,31 @@
 /**
  * CinéMatch — Application Cinéma Mobile-First (PWA)
- * Données temps réel Toulourama (Pathé / Utopia) & IMDb (OMDb API)
+ * Programmation Toulourama (Pathé, American Cosmograph, ABC, Utopia) & IMDb (OMDb API)
  */
 
 (function () {
   'use strict';
 
   const STORAGE_KEY = 'cinematch_preferences_v1';
-  const CINEMA_STORAGE_PREFIX = 'cinematch_db_';
-  const LAST_REFRESH_PREFIX = 'cinematch_last_refresh_';
+  const MULTI_CACHE_KEY = 'cinematch_db_multi_v2';
+  const LAST_REFRESH_KEY = 'cinematch_last_refresh_multi_v2';
   const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx4PUen42hiYlpHtgSKwAzJYEtHj-LHoCFbC8un1R_NfAFb7wA3CwmQzqtgd9l2ou7Z/exec';
   const OMDB_API_KEY = 'cd47ed88';
+
+  const CINEMA_IDS = ['pathe', 'cosmo', 'abc', 'utopia'];
+  const CINEMA_SHORT_NAMES = {
+    pathe: 'Pathé',
+    cosmo: 'Cosmo',
+    abc: 'ABC',
+    utopia: 'Utopia'
+  };
+  const NAV_LABELS = {
+    all: 'Séances',
+    pathe: 'Séances Pathé',
+    cosmo: 'Séances Cosmo',
+    abc: 'Séances ABC',
+    utopia: 'Séances Utopia'
+  };
 
   function getTodayKey() {
     const now = new Date();
@@ -24,6 +39,15 @@
     return getTodayKey().replace(/-/g, '');
   }
 
+  function normalizeCinemaId(rawCinema) {
+    if (!rawCinema) return 'pathe';
+    const lower = String(rawCinema).toLowerCase();
+    if (lower.includes('cosmo')) return 'cosmo';
+    if (lower.includes('abc')) return 'abc';
+    if (lower.includes('utopia')) return 'utopia';
+    return 'pathe';
+  }
+
   function cleanGenreText(rawGenre) {
     if (!rawGenre) return '';
     let g = rawGenre.split('Avec')[0];
@@ -34,7 +58,6 @@
   function formatDayTabLabel(day) {
     const todayId = getTodayCompactId();
     const parts = (day.day_title || '').trim().split(/\s+/);
-    // Exemple: ["Mardi", "13", "octobre"]
     const weekday = parts[0] ? parts[0].slice(0, 3).toUpperCase() : '';
     const num = parts[1] || '';
     const month = parts[2] ? parts[2].slice(0, 3).toLowerCase() : '';
@@ -131,6 +154,8 @@
     currentView: 'view-schedule',
     selectedDayIndex: 0,
     scheduleFilter: 'all',
+    allMovies: [],
+    allDays: [],
     movies: [],
     days: [],
     activeDeck: []
@@ -167,29 +192,66 @@
   }
 
   // ==========================================================================
-  // Initialisation des données & Cache par cinéma
+  // Initialisation & Filtrage Multi-Cinémas (Pathé, Cosmo, ABC, Utopia)
   // ==========================================================================
   function initData() {
-    const cached = localStorage.getItem(CINEMA_STORAGE_PREFIX + state.selectedCinema);
+    const cached = localStorage.getItem(MULTI_CACHE_KEY);
     if (cached) {
       try {
         const parsed = JSON.parse(cached);
-        state.movies = parsed.movies || [];
-        state.days = parsed.days || [];
-        selectDefaultDayIndex();
+        state.allMovies = parsed.movies || [];
+        state.allDays = parsed.days || [];
+        applyCinemaFilter();
         return;
       } catch (e) {
         console.warn('Cache corrompu:', e);
       }
     }
 
-    if (window.CINEMA_DATA && window.CINEMA_DATA.movies && state.selectedCinema === 'pathe') {
-      state.movies = window.CINEMA_DATA.movies;
-      state.days = window.CINEMA_DATA.days || [];
+    if (window.CINEMA_DATA && window.CINEMA_DATA.movies) {
+      state.allMovies = (window.CINEMA_DATA.movies || []).map(m => ({
+        ...m,
+        cinemas: m.cinemas || Array.from(new Set((m.seances || []).map(s => s.cinema_id || normalizeCinemaId(s.cinema))))
+      }));
+      state.allDays = (window.CINEMA_DATA.days || []).map(d => ({
+        ...d,
+        seances: (d.seances || []).map(s => ({
+          ...s,
+          cinema_id: s.cinema_id || normalizeCinemaId(s.cinema)
+        }))
+      }));
     } else {
-      state.movies = [];
-      state.days = [];
+      state.allMovies = [];
+      state.allDays = [];
     }
+
+    applyCinemaFilter();
+  }
+
+  function applyCinemaFilter() {
+    const filter = state.selectedCinema;
+
+    if (filter === 'all') {
+      state.movies = state.allMovies;
+      state.days = state.allDays.map(d => ({
+        ...d,
+        seances: [...(d.seances || [])].sort((a, b) => (a.time || '').localeCompare(b.time || ''))
+      }));
+    } else {
+      state.movies = state.allMovies.filter(m => {
+        if (Array.isArray(m.cinemas) && m.cinemas.includes(filter)) return true;
+        return (m.seances || []).some(s => (s.cinema_id || normalizeCinemaId(s.cinema)) === filter);
+      });
+      state.days = state.allDays
+        .map(d => ({
+          ...d,
+          seances: (d.seances || [])
+            .filter(s => (s.cinema_id || normalizeCinemaId(s.cinema)) === filter)
+            .sort((a, b) => (a.time || '').localeCompare(b.time || ''))
+        }))
+        .filter(d => d.seances.length > 0);
+    }
+
     selectDefaultDayIndex();
   }
 
@@ -199,33 +261,34 @@
     state.selectedDayIndex = idx >= 0 ? idx : 0;
   }
 
-  function saveCinemaDataToCache(cinema, data) {
+  function saveMultiCinemaCache() {
     try {
-      localStorage.setItem(CINEMA_STORAGE_PREFIX + cinema, JSON.stringify({
-        ...data,
+      localStorage.setItem(MULTI_CACHE_KEY, JSON.stringify({
+        movies: state.allMovies,
+        days: state.allDays,
         lastRefreshDate: getTodayKey()
       }));
     } catch (e) {
-      console.warn('Erreur sauvegarde cache cinéma:', e);
+      console.warn('Erreur sauvegarde cache multi-cinémas:', e);
     }
   }
 
-  function needsDailyRefresh(cinema) {
+  function needsDailyRefresh() {
     const today = getTodayKey();
-    const lastRefresh = localStorage.getItem(LAST_REFRESH_PREFIX + cinema);
+    const lastRefresh = localStorage.getItem(LAST_REFRESH_KEY);
     return lastRefresh !== today;
   }
 
-  function markRefreshedToday(cinema) {
+  function markRefreshedToday() {
     try {
-      localStorage.setItem(LAST_REFRESH_PREFIX + cinema, getTodayKey());
+      localStorage.setItem(LAST_REFRESH_KEY, getTodayKey());
     } catch (e) {
       console.warn('Erreur sauvegarde date refresh:', e);
     }
   }
 
   function getMovieById(id) {
-    return state.movies.find(m => m.id === id);
+    return state.allMovies.find(m => m.id === id) || state.movies.find(m => m.id === id);
   }
 
   function getMovieStatus(movieId) {
@@ -284,7 +347,7 @@
                   badge.innerHTML = `★ ${omdb.rating}`;
                 }
               }
-              saveCinemaDataToCache(state.selectedCinema, { movies: state.movies, days: state.days });
+              saveMultiCinemaCache();
             }
           });
         }
@@ -306,7 +369,8 @@
 
     const pitch = movie.synopsis || (movie.imdb && movie.imdb.plot_en) || 'Synopsis non communiqué.';
     const genreClean = cleanGenreText(movie.genre);
-    const metaParts = [movie.director, genreClean].filter(Boolean);
+    const cinemaBadges = (movie.cinemas || []).map(c => CINEMA_SHORT_NAMES[c] || c).join(', ');
+    const metaParts = [movie.director, genreClean, cinemaBadges].filter(Boolean);
 
     card.innerHTML = `
       <div class="stamp stamp-like">ENVIE</div>
@@ -454,7 +518,7 @@
       state.liked.add(movie.id);
       state.disliked.delete(movie.id);
       state.seen.delete(movie.id);
-      showToast(`Ajouté aux envies`);
+      showToast('Ajouté aux envies');
     } else if (direction === 'left') {
       card.style.transform = 'translate(-135vw, 24px) rotate(-28deg)';
       card.style.opacity = '0';
@@ -467,7 +531,7 @@
       state.seen.add(movie.id);
       state.liked.delete(movie.id);
       state.disliked.delete(movie.id);
-      showToast(`Marqué comme vu`);
+      showToast('Marqué comme vu');
     } else if (direction === 'skip') {
       card.style.transform = 'translate(0, 80px) scale(0.92)';
       card.style.opacity = '0';
@@ -524,7 +588,7 @@
   }
 
   // ==========================================================================
-  // VUE 1 (DÉFAUT) : Séances Pathé / Utopia
+  // VUE 1 (DÉFAUT) : Séances (Pathé, Cosmo, ABC, Utopia)
   // ==========================================================================
   const dayTabsContainer = document.getElementById('day-tabs');
   const scheduleListContainer = document.getElementById('schedule-list');
@@ -619,6 +683,8 @@
       const rating = (movie && movie.imdb && movie.imdb.rating) ? movie.imdb.rating : null;
       const version = (seance.version || 'VF').toUpperCase();
       const isVost = version.includes('VO');
+      const cinemaId = seance.cinema_id || normalizeCinemaId(seance.cinema);
+      const cinemaLabel = CINEMA_SHORT_NAMES[cinemaId] || seance.cinema || 'Ciné';
 
       const metaItems = [];
       if (movie && movie.duration) metaItems.push(movie.duration);
@@ -632,6 +698,7 @@
           <div class="seance-top-line">
             <span class="seance-time">${seance.time}</span>
             <span class="seance-version ${isVost ? 'is-vost' : ''}">${version}</span>
+            <span class="seance-cinema-tag cinema-${cinemaId}">${cinemaLabel}</span>
             ${statusDot}
           </div>
           <h3 class="seance-film-title">${seance.title}</h3>
@@ -915,7 +982,7 @@
   function updateNavScheduleLabel() {
     const labelEl = document.getElementById('nav-schedule-label');
     if (labelEl) {
-      labelEl.textContent = state.selectedCinema === 'utopia' ? 'Séances Utopia' : 'Séances Pathé';
+      labelEl.textContent = NAV_LABELS[state.selectedCinema] || 'Séances';
     }
   }
 
@@ -931,29 +998,91 @@
   }
 
   // ==========================================================================
-  // Refresh Automatique Quotidien (si date != today)
+  // Refresh Automatique Quotidien Multi-Cinémas (Pathé, Cosmo, ABC, Utopia)
   // ==========================================================================
-  async function refreshCinemaData(forceCinema = null) {
-    const cinema = forceCinema || state.selectedCinema || 'pathe';
+  async function refreshAllCinemasData() {
     const syncInd = document.getElementById('sync-indicator');
     if (syncInd) syncInd.classList.remove('hidden');
 
     try {
-      const response = await fetch(`${APPS_SCRIPT_URL}?cinema=${cinema}`);
-      const data = await response.json();
+      const results = await Promise.all(
+        CINEMA_IDS.map(cid =>
+          fetch(`${APPS_SCRIPT_URL}?cinema=${cid}`)
+            .then(r => r.json())
+            .then(data => ({ cid, data }))
+            .catch(() => ({ cid, data: null }))
+        )
+      );
 
-      if (data && data.status === 'success' && data.movies && data.movies.length > 0) {
-        state.movies = data.movies;
-        state.days = data.days || [];
-        selectDefaultDayIndex();
+      const moviesMap = new Map();
+      // Conserver les métadonnées existantes (synopsis/imdb) déjà connues
+      state.allMovies.forEach(m => moviesMap.set(m.id, { ...m, cinemas: [], seances: [] }));
 
-        markRefreshedToday(cinema);
-        saveCinemaDataToCache(cinema, { movies: state.movies, days: state.days });
+      const daysMap = new Map();
 
+      let hasValidData = false;
+
+      results.forEach(({ cid, data }) => {
+        if (!data || data.status !== 'success' || !Array.isArray(data.movies)) return;
+        hasValidData = true;
+
+        data.movies.forEach(m => {
+          const existing = moviesMap.get(m.id);
+          if (!existing) {
+            moviesMap.set(m.id, {
+              ...m,
+              cinemas: [cid],
+              seances: (m.seances || []).map(s => ({ ...s, cinema_id: cid }))
+            });
+          } else {
+            if (!existing.title && m.title) existing.title = m.title;
+            if (!existing.director && m.director) existing.director = m.director;
+            if (!existing.duration && m.duration) existing.duration = m.duration;
+            if (!existing.poster_toulourama && m.poster_toulourama) existing.poster_toulourama = m.poster_toulourama;
+            if (!existing.synopsis && m.synopsis) existing.synopsis = m.synopsis;
+            if (!existing.genre && m.genre) existing.genre = m.genre;
+            if (!existing.imdb && m.imdb) existing.imdb = m.imdb;
+            if (!existing.cinemas.includes(cid)) existing.cinemas.push(cid);
+            const taggedSeances = (m.seances || []).map(s => ({ ...s, cinema_id: cid }));
+            existing.seances.push(...taggedSeances);
+          }
+        });
+
+        (data.days || []).forEach(day => {
+          if (!daysMap.has(day.day_id)) {
+            daysMap.set(day.day_id, {
+              day_id: day.day_id,
+              day_title: day.day_title,
+              seances: []
+            });
+          }
+          const dEntry = daysMap.get(day.day_id);
+          (day.seances || []).forEach(s => {
+            dEntry.seances.push({
+              ...s,
+              cinema_id: cid
+            });
+          });
+        });
+      });
+
+      if (hasValidData) {
+        state.allMovies = Array.from(moviesMap.values()).filter(m => m.seances && m.seances.length > 0);
+        state.allDays = Array.from(daysMap.values())
+          .sort((a, b) => String(a.day_id).localeCompare(String(b.day_id)))
+          .map(d => ({
+            ...d,
+            seances: d.seances.sort((a, b) => (a.time || '').localeCompare(b.time || ''))
+          }));
+
+        markRefreshedToday();
+        saveMultiCinemaCache();
+
+        applyCinemaFilter();
         initDeck();
         initSchedule();
 
-        enrichMoviesWithoutPosterOrRating(state.movies, cinema);
+        enrichMoviesWithoutPosterOrRating(state.allMovies);
       }
     } catch (err) {
       console.warn('Actualisation automatique en arrière-plan indisponible:', err);
@@ -962,7 +1091,7 @@
     }
   }
 
-  async function enrichMoviesWithoutPosterOrRating(movies, cinema) {
+  async function enrichMoviesWithoutPosterOrRating(movies) {
     let updatedCount = 0;
     for (const movie of movies) {
       const missingPoster = !movie.poster_toulourama || movie.poster_toulourama.includes('placeholder');
@@ -981,7 +1110,7 @@
     }
 
     if (updatedCount > 0) {
-      saveCinemaDataToCache(cinema, { movies: state.movies, days: state.days });
+      saveMultiCinemaCache();
       renderDeck();
       renderSchedule();
     }
@@ -994,18 +1123,13 @@
       updateNavScheduleLabel();
 
       selectEl.addEventListener('change', () => {
-        const newCinema = selectEl.value;
-        state.selectedCinema = newCinema;
-        localStorage.setItem('cinematch_current_cinema', newCinema);
+        state.selectedCinema = selectEl.value;
+        localStorage.setItem('cinematch_current_cinema', state.selectedCinema);
         updateNavScheduleLabel();
 
-        initData();
+        applyCinemaFilter();
         initDeck();
         initSchedule();
-
-        if (state.movies.length === 0 || needsDailyRefresh(newCinema)) {
-          refreshCinemaData(newCinema);
-        }
       });
     }
   }
@@ -1067,8 +1191,8 @@
     switchView('view-schedule');
 
     // Refresh automatique si la date du dernier refresh != aujourd'hui (ou cache vide)
-    if (state.movies.length === 0 || needsDailyRefresh(state.selectedCinema)) {
-      refreshCinemaData(state.selectedCinema);
+    if (state.allMovies.length === 0 || needsDailyRefresh()) {
+      refreshAllCinemasData();
     }
   }
 

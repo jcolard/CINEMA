@@ -1,433 +1,15 @@
-// Base de données générée automatiquement depuis Toulourama (Pathé) et IMDb/OMDb
+// Base de données générée depuis Toulourama (Pathé, Cosmo, ABC, Utopia) et IMDb/OMDb
 window.CINEMA_DATA = {
-  "source": "Toulourama (Pathé) + OMDb API (IMDb)",
-  "updated_at": "2026-10-11T16:55:00",
-  "cinema_filter": "pathe",
+  "source": "Toulourama (Pathé, Cosmo, ABC, Utopia) + OMDb API (IMDb)",
+  "updated_at": "2026-10-14T17:09:04",
+  "cinema_filter": "pathe,cosmo,abc,utopia",
   "movies": [
-    {
-      "id": "la-bataille-de-gaulle-lage-de-fer",
-      "title": "La Bataille de Gaulle : L’âge de fer",
-      "director": "Antonin  Baudry",
-      "duration": "2h39",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/1791269554-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/ababe8e671849300cbf221a224f5f844-1024x429.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/la-bataille-de-gaulle-partie-1-l-age-de-fer-50854",
-      "film_page_url": "https://www.toulourama.fr/film/la-bataille-de-gaulle-lage-de-fer/",
-      "synopsis": "Juin 1940. La France s'effondre et signe l’armistice. Au milieu du chaos, un homme refuse de céder. Seul contre tous, ce général inconnu s'échappe vers Londres pour sauver ce qu'il reste d'un rêve : la liberté.Sans armée, sans appui, sans espoir. Mais avec une folle conviction : la France, sa France, n'a pas déposé les armes. Il tente un ultime pari : convaincre le mondeque la bataille de France n'est ni terminée, ni perdue.La réalité est têtue, et lui donne tort. Mais peu à peu se lèvent autour de lui en Angleterre, en France et en Afrique des résistants de l'ombre, des lycéens révoltés, des soldats déterminés. Leur foi, leur audace, leur rage de liberté défient l'Histoire qui semblait pourtant écrite d’avance.",
-      "cast": "",
-      "genre": "FranceThriller, HistoriqueAvec avec Simon Abkarian, Simon Russell Beale, Florian Lesieur",
-      "imdb": null,
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200386/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200548/booking"
-        }
-      ]
-    },
-    {
-      "id": "notre-salut",
-      "title": "Notre salut",
-      "director": "Emmanuel Marre",
-      "duration": "2h35",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791269591-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1779187704-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/notre-salut-52581",
-      "film_page_url": "https://www.toulourama.fr/film/notre-salut/",
-      "synopsis": "Septembre 1940, le régime de Pétain se met en place. Henri Marre, 49 ans, débarque à Vichy sans le sou, sans contact, loin de sa femme et ses enfants. Il voit dans la nouvelle administration l’opportunité de trouver enfin la place qu’il mérite. Dans sa valise, son traité politique édité à compte d’auteur, Notre Salut, où il défend ses convictions patriotiques et ses méthodes d'ingénieur. Son credo : « gagner en efficacité » pour relever la France de la débâcle. Mais peut-être qu’Henri cherche avant tout à fuir sa propre débâcle…",
-      "cast": "",
-      "genre": "Belgique2026Comédie, HistoriqueAvec Swann Arlaud, Mathieu Perotto, Sandrine Blancke",
-      "imdb": null,
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200389/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200406/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200423/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200435/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200469/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200486/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200503/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200515/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200551/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200568/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200585/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200597/booking"
-        }
-      ]
-    },
-    {
-      "id": "primetime",
-      "title": "Primetime",
-      "director": "Lance Oppenheim",
-      "duration": "1h49",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269604-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1790060540-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/primetime-54936",
-      "film_page_url": "https://www.toulourama.fr/film/primetime/",
-      "synopsis": "En 2006, Chris Hansen, le présentateur de l'émission To Catch a Predator, entreprend de marquer l’histoire de la télévision.",
-      "cast": "",
-      "genre": "Etats-UnisBiopic, PolicierAvec Merritt Wever, Robert Pattinson, Phoebe Bridgers",
-      "imdb": {
-        "imdb_id": "tt0096680",
-        "rating": "5.8",
-        "votes": "145",
-        "plot_en": "A nighttime news program similar to 60 minutes and 20/20. Veteran newscasters Diane Sawyer and Sam Donaldson provide an in-depth look at the kinds of news stories that often do not receive much air time on regular news broadcasts. Frequent topics included product safety warnings, possible government or business improprieties, and human interest stories about sick children.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZGE3YmMyNjAtM2Y5OC00ZDhlLWIwNmQtNWQ0NWYyMGQzYmE3XkEyXkFqcGdeQXVyMTkzODUwNzk@._V1_SX300.jpg",
-        "metascore": "N/A",
-        "year": "1989–2012",
-        "actors": "Diane Sawyer, Charles Gibson, Chris Wallace",
-        "omdb_title": "Primetime"
-      },
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200390/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200422/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200434/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200455/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200470/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200488/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200502/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200514/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200535/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200552/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200570/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200584/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200596/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200617/booking"
-        }
-      ]
-    },
-    {
-      "id": "ducobu-et-le-fantome-de-saint-potache-2",
-      "title": "Ducobu et le fantôme de Saint-Potache",
-      "director": "Elie Semoun",
-      "duration": "1h30",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269532-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269532-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/ducobu-et-le-fantome-de-saint-potache-47832",
-      "film_page_url": "https://www.toulourama.fr/film/ducobu-et-le-fantome-de-saint-potache-2/",
-      "synopsis": "C’est Halloween, et Ducobu revient pour une aventure pleine de rires et de mystères ! Le professeur Latouche et Mademoiselle Rateau emménagent dans une maison… hantée par le fantôme d’Anatole, le plus grand cancre de l’histoire de l’école Saint-Potache. Ce fantôme farceur va entraîner Ducobu, Léonie, leurs parents et Kitrish dans une série de péripéties aussi drôles qu’inattendues. Mais attention : à Halloween, tout peut arriver.",
-      "cast": "",
-      "genre": "BelgiqueComédie, FamilleAvec Elie Semoun, Émilie Caen, Charlie Garnier Naslin",
-      "imdb": null,
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200388/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:30",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200404/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200418/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "18:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200432/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200445/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200468/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200484/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "15:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200498/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "17:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200512/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200525/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200550/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200566/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200580/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "18:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200594/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200607/booking"
-        }
-      ]
-    },
     {
       "id": "verity",
       "title": "Verity",
       "director": "Michael Showalter",
       "duration": "1h54",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269642-225x300.jpg",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880980-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1790669919-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/verity-50815",
       "film_page_url": "https://www.toulourama.fr/film/verity/",
@@ -445,572 +27,171 @@ window.CINEMA_DATA = {
         "actors": "Marie Rabe, Meriel Rosenkranz, Eden Vik, Robert Hayden",
         "omdb_title": "Verity"
       },
+      "cinemas": [
+        "pathe"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "10:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200387/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200819/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "11:00",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:45",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200398/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200740/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:00",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200409/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200764/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200433/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "17:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200426/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200444/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200462/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200467/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200478/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200489/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "16:45",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200506/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200757/booking"
         },
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "18:30",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:30",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200513/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200524/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200775/booking"
         },
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "22:15",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200542/booking"
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200791/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
           "time": "10:30",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200549/booking"
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201098/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
           "time": "11:00",
           "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200560/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200571/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:00",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200588/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201082/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "18:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200595/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200606/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200624/booking"
-        }
-      ]
-    },
-    {
-      "id": "the-social-reckoning",
-      "title": "The Social Reckoning",
-      "director": "Aaron Sorkin",
-      "duration": "1h52",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269633-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269633-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/the-social-reckoning-50113",
-      "film_page_url": "https://www.toulourama.fr/film/the-social-reckoning/",
-      "synopsis": "Le film s'inspire de l'histoire vraie d'une jeune ingénieure chez Facebook, qui sollicite l'aide d'un journaliste au Wall Street Journal. Ensemble, ils se lancent dans une enquête pour révéler les secrets les mieux gardés du puissant réseau social.voir moins",
-      "cast": "",
-      "genre": "Etats-UnisDrameAvec Mikey Madison, Jeremy Allen White, Jeremy Strong",
-      "imdb": {
-        "imdb_id": "tt37510326",
-        "rating": null,
-        "votes": null,
-        "plot_en": "A companion piece to the hit film, The Social Network, Sorkin's original screenplay tells the true story of how Frances Haugen (Madison), a young Facebook engineer, enlists the help of Jeff Horwitz (White), a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZmRhNmRmNzYtMDNhZC00NDQyLWI3NjUtYWY3MjRjNWM3MmVhXkEyXkFqcGc@._V1_QL75_UY280_CR5,0,280,280_.jpg",
-        "metascore": "N/A",
-        "year": "2026",
-        "actors": "Billy Magnussen, Betty Gilpin, Jeremy Allen White",
-        "omdb_title": "The Social Reckoning"
-      },
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200391/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200410/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200431/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200436/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200456/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200471/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200490/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200511/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200516/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200536/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200553/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200572/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200593/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200598/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200618/booking"
-        }
-      ]
-    },
-    {
-      "id": "linvitation",
-      "title": "L'Invitation",
-      "director": "Olivia Wilde",
-      "duration": "1h47",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269549-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1788862138-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/l-invitation-52233",
-      "film_page_url": "https://www.toulourama.fr/film/linvitation/",
-      "synopsis": "Angela et Joe invitent leurs mystérieux nouveaux voisins du dessus à dîner. La soirée va alors rapidement faire voler en éclats toutes leurs certitudes.",
-      "cast": "",
-      "genre": "Etats-UnisComédieAvec Penélope Cruz, Olivia Wilde, Seth Rogen",
-      "imdb": {
-        "imdb_id": "tt0132246",
-        "rating": "7.0",
-        "votes": "330",
-        "plot_en": "Tired of being ignored by her husband, a young woman heads off to a nautical-themed nightclub, frequented by rowdy sailors. Her attentions is caught by a handsome naval officer.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYWZlNjExMjAtYjY3NS00MDVlLWIxNDEtYjYxMmVkZWI4ZDNhXkEyXkFqcGdeQXVyNzQ1NDIxMDQ@._V1_SX300.jpg",
-        "metascore": "N/A",
-        "year": "1927",
-        "actors": "Raymond Dubreuil, Emma Gynt, Robert Mirfeuil",
-        "omdb_title": "L'invitation au voyage"
-      },
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200394/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
           "time": "14:15",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200414/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200451/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201092/booking"
         },
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200474/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200494/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200546/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200531/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200556/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200576/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200613/booking"
-        }
-      ]
-    },
-    {
-      "id": "garance",
-      "title": "Garance",
-      "director": "Jeanne Herry",
-      "duration": "1h59",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791269541-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/garance-1024x682.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/garance-52451",
-      "film_page_url": "https://www.toulourama.fr/film/garance/",
-      "synopsis": "Garance est une jeune actrice alcoolique. Huit ans d’un parcours fait de déménagements, de travail, de rencontres, de fêtes et d’angoisses, de joies et de coups durs… Mais aussi une révolution intime, amicale et sexuelle, un chaos aux allures de « grande récré » où se mêlent autant d’amour que de destruction.",
-      "cast": "",
-      "genre": "Belgique2026DrameAvec Sara Giraudeau, Adèle Exarchopoulos, Anne Suarez",
-      "imdb": {
-        "imdb_id": "tt19121498",
-        "rating": "5.8",
-        "votes": "59",
-        "plot_en": "",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOWQxZTUyNWEtZmViZC00ZjYwLThmNmEtOGVhYzhjODkwZWI2XkEyXkFqcGdeQXVyNjYxNzY5MjE@._V1_SX300.jpg",
-        "metascore": "N/A",
-        "year": "2022",
-        "actors": "Azou Gardahaut Petiteau, Jeanne Vallet de Villeneuve, Grégory Montel",
-        "omdb_title": "Libre Garance!"
-      },
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200392/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200412/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
           "time": "16:45",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200419/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201111/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201125/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "21:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201145/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201140/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201005/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201015/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201034/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
           "time": "19:15",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201048/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200438/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200452/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200472/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200492/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "17:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200499/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200518/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200532/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200554/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:15",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200574/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200581/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200600/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200614/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201063/booking"
         }
       ]
     },
@@ -1019,7 +200,7 @@ window.CINEMA_DATA = {
       "title": "La Maison de nos rêves",
       "director": "Claude Zidi Jr.",
       "duration": "1h29",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269566-225x300.jpg",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791880926-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269566-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/la-maison-de-nos-reves-51866",
       "film_page_url": "https://www.toulourama.fr/film/la-maison-de-nos-reves/",
@@ -1037,410 +218,1337 @@ window.CINEMA_DATA = {
         "actors": "Kev Adams, Camille Aguilar, Chantal Ladesou",
         "omdb_title": "La maison de nos rêves"
       },
+      "cinemas": [
+        "pathe"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:45",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200393/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200828/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:30",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:45",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200416/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200747/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:30",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:45",
           "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200424/booking"
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200755/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200772/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "20:15",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200441/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200454/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200473/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200496/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200504/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200521/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200534/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200555/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200578/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200586/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200603/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200793/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "21:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200616/booking"
-        }
-      ]
-    },
-    {
-      "id": "ni-vue-ni-connue",
-      "title": "Ni vue, ni connue",
-      "director": "Marc Fitoussi",
-      "duration": "1h55",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269585-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269585-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/ni-vue-ni-connue-52015",
-      "film_page_url": "https://www.toulourama.fr/film/ni-vue-ni-connue/",
-      "synopsis": "Corinne Maclou est figurante. Elle enchaîne les tournages avec l’espoir d’être remarquée et de décrocher enfin un vrai rôle. Lorsque son chemin croise celui de Sandrine Kiberlain et qu’une relation commence à se nouer entre les deux, Corinne espère concrétiser son rêve. Mais la célèbre actrice va-t-elle vraiment l’aider à se faire une place au sein de la grande famille ducinéma ?",
-      "cast": "",
-      "genre": "FranceComédieAvec Isabelle Huppert, Sandrine Kiberlain, Anne Marivin",
-      "imdb": {
-        "imdb_id": "tt0387440",
-        "rating": "6.1",
-        "votes": "11",
-        "plot_en": "",
-        "poster": "",
-        "metascore": "N/A",
-        "year": "2003",
-        "actors": "Valérie Donzelli, Guillaume Saurrel, Marie Gili-Pierre, Djibril Glissant",
-        "omdb_title": "Ni vue, ni connue"
-      },
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
           "time": "10:45",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200395/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201073/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200407/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200421/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200442/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200457/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200475/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200487/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200501/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200522/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200537/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200557/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200569/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200583/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200604/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200619/booking"
-        }
-      ]
-    },
-    {
-      "id": "tombe-du-ciel",
-      "title": "Tombé du ciel",
-      "director": "Mohamed Hamidi",
-      "duration": "1h31",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/1791269635-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/1786472172-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/tombe-du-ciel-51288",
-      "film_page_url": "https://www.toulourama.fr/film/tombe-du-ciel/",
-      "synopsis": "Ilyès mène une vie joyeuse dans la banlieue de Roubaix. Seul problème : le bac. Après avoir échoué deux fois, c’est sa dernière chance de l’avoir et de rendre enfin fier ses parents. Mais un incendie survient pendant le bac blanc, et on l’accuse d’en être à l’origine… Exclu de son lycée, il doit quitter son quartier et aller dans le seul établissement qui l’accepte : le pensionnat catholique de Saint-Albert-le-Grand, en Bourgogne. Entre choc des cultures et quête de rédemption, Ilyès va devoir surmonter ses préjugés… Et ceux des autres.",
-      "cast": "",
-      "genre": "FranceComédie, FamilleAvec Josiane Balasko, Fred Testot, Ilyes Djadel",
-      "imdb": {
-        "imdb_id": "tt5698638",
-        "rating": "5.9",
-        "votes": "44",
-        "plot_en": "After 20 years apart, Samir a former militiaman who was presumed dead, reappears in the life of Omar, his little brother who has become a bodyguard in Beirut. Between drama and comedy, Samir has to come to terms with a country he no longer recognizes.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMmY2Y2NmZTQtNjc0Mi00MzdiLWFhNGQtNjIyZDg2NGVmMDU5XkEyXkFqcGdeQXVyMjk3ODY3NA@@._V1_SX300.jpg",
-        "metascore": "N/A",
-        "year": "2016",
-        "actors": "Raed Yassin, Rodrigue Sleiman, Said Serhan",
-        "omdb_title": "Tombé du ciel"
-      },
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200397/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200477/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200559/booking"
-        }
-      ]
-    },
-    {
-      "id": "si-tu-penses-bien",
-      "title": "Si tu penses bien",
-      "director": "Géraldine Nakache",
-      "duration": "1h34",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791269626-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1779187727-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/si-tu-penses-bien-52709",
-      "film_page_url": "https://www.toulourama.fr/film/si-tu-penses-bien/",
-      "synopsis": "Lorsque Gil rencontre Jacques, leur amour est évident.Mais l’intensité des débuts laisse place à une relation où elle se sent de plus en plus enfermée, jusqu’à en perdre ses repères.Jacques la rassure : si elle pense bien, il ne lui arrivera que du bien.Peu à peu, Gil comprend le contrôle qu’il exerce sur sa vie…",
-      "cast": "",
-      "genre": "BelgiqueDrameAvec Monia Chokri, Niels Schneider, Rudgy Pajany",
-      "imdb": null,
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200400/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:20",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200460/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200480/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:30",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200493/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:20",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200540/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200562/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
           "time": "13:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200575/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201093/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201118/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201146/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201130/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200996/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201016/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201041/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201053/booking"
+        }
+      ]
+    },
+    {
+      "id": "ducobu-et-le-fantome-de-saint-potache-2",
+      "title": "Ducobu et le fantôme de Saint-Potache",
+      "director": "Elie Semoun",
+      "duration": "1h30",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791880903-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269532-1-1024x576.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/ducobu-et-le-fantome-de-saint-potache-47832",
+      "film_page_url": "https://www.toulourama.fr/film/ducobu-et-le-fantome-de-saint-potache-2/",
+      "synopsis": "C’est Halloween, et Ducobu revient pour une aventure pleine de rires et de mystères ! Le professeur Latouche et Mademoiselle Rateau emménagent dans une maison… hantée par le fantôme d’Anatole, le plus grand cancre de l’histoire de l’école Saint-Potache. Ce fantôme farceur va entraîner Ducobu, Léonie, leurs parents et Kitrish dans une série de péripéties aussi drôles qu’inattendues. Mais attention : à Halloween, tout peut arriver.",
+      "cast": "",
+      "genre": "BelgiqueComédie, FamilleAvec Elie Semoun, Émilie Caen, Charlie Garnier Naslin",
+      "imdb": null,
+      "cinemas": [
+        "pathe"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200827/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200736/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200749/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200763/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201072/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201086/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201100/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201117/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200995/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201009/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201023/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201040/booking"
+        }
+      ]
+    },
+    {
+      "id": "les-miserables",
+      "title": "Les Misérables",
+      "director": "Fred  Cavayé",
+      "duration": "2h59",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880938-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/88be80df88492a191087bc0d2b84c7fc-1024x711.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/les-miserables-48629",
+      "film_page_url": "https://www.toulourama.fr/film/les-miserables/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "pathe"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200830/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200843/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200797/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200796/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "17:15",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200630/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200798/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200811/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200794/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200795/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201074/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201096/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201113/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201109/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201133/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201131/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200997/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201003/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201019/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201032/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201042/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201054/booking"
+        }
+      ]
+    },
+    {
+      "id": "minotaure",
+      "title": "Minotaure",
+      "director": "Andreï Zviaguintsev",
+      "duration": "2h21",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880946-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/69855ba06294a33937eaec32a93bc12f.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/minotaure-51969",
+      "film_page_url": "https://www.toulourama.fr/film/minotaure/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "pathe",
+        "utopia",
+        "abc"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200824/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200802/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:45",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091478&ps=EMS0947"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200803/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:45",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091480&ps=EMS0947"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200800/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091479&ps=EMS0947"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201071/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201094/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:15",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091494&ps=EMS0947"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201107/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201128/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:15",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091495&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200994/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201017/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:10",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091510&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201030/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201051/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091512&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "garance",
+      "title": "Garance",
+      "director": "Jeanne Herry",
+      "duration": "1h59",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791880909-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/garance-1024x682.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/garance-52451",
+      "film_page_url": "https://www.toulourama.fr/film/garance/",
+      "synopsis": "Garance est une jeune actrice alcoolique. Huit ans d’un parcours fait de déménagements, de travail, de rencontres, de fêtes et d’angoisses, de joies et de coups durs… Mais aussi une révolution intime, amicale et sexuelle, un chaos aux allures de « grande récré » où se mêlent autant d’amour que de destruction.",
+      "cast": "",
+      "genre": "Belgique2026DrameAvec Sara Giraudeau, Adèle Exarchopoulos, Anne Suarez",
+      "imdb": {
+        "imdb_id": "tt19121498",
+        "rating": "5.8",
+        "votes": "59",
+        "plot_en": "",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWQxZTUyNWEtZmViZC00ZjYwLThmNmEtOGVhYzhjODkwZWI2XkEyXkFqcGdeQXVyNjYxNzY5MjE@._V1_SX300.jpg",
+        "metascore": "N/A",
+        "year": "2022",
+        "actors": "Azou Gardahaut Petiteau, Jeanne Vallet de Villeneuve, Grégory Montel",
+        "omdb_title": "Libre Garance!"
+      },
+      "cinemas": [
+        "pathe",
+        "cosmo",
+        "utopia"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200829/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "12:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200817/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200770/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:45",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200839/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201078/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201091/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201148/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:10",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201147/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201014/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:40",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:45",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
           "time": "22:00",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200622/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201059/booking"
+        }
+      ]
+    },
+    {
+      "id": "malfaisante",
+      "title": "Malfaisante",
+      "director": "Rob Savage",
+      "duration": "1h33",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791880942-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791880942-1-1024x576.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/malfaisante-49786",
+      "film_page_url": "https://www.toulourama.fr/film/malfaisante/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "pathe"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200821/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200807/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200806/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200804/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200805/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201076/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201099/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201115/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201152/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201153/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200999/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201022/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201038/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201052/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201064/booking"
+        }
+      ]
+    },
+    {
+      "id": "the-social-reckoning",
+      "title": "The Social Reckoning",
+      "director": "Aaron Sorkin",
+      "duration": "1h52",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791880974-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269633-1-1024x576.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/the-social-reckoning-50113",
+      "film_page_url": "https://www.toulourama.fr/film/the-social-reckoning/",
+      "synopsis": "Le film s'inspire de l'histoire vraie d'une jeune ingénieure chez Facebook, qui sollicite l'aide d'un journaliste au Wall Street Journal. Ensemble, ils se lancent dans une enquête pour révéler les secrets les mieux gardés du puissant réseau social.voir moins",
+      "cast": "",
+      "genre": "Etats-UnisDrameAvec Mikey Madison, Jeremy Allen White, Jeremy Strong",
+      "imdb": {
+        "imdb_id": "tt37510326",
+        "rating": null,
+        "votes": null,
+        "plot_en": "A companion piece to the hit film, The Social Network, Sorkin's original screenplay tells the true story of how Frances Haugen (Madison), a young Facebook engineer, enlists the help of Jeff Horwitz (White), a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmRhNmRmNzYtMDNhZC00NDQyLWI3NjUtYWY3MjRjNWM3MmVhXkEyXkFqcGc@._V1_QL75_UY280_CR5,0,280,280_.jpg",
+        "metascore": "N/A",
+        "year": "2026",
+        "actors": "Billy Magnussen, Betty Gilpin, Jeremy Allen White",
+        "omdb_title": "The Social Reckoning"
+      },
+      "cinemas": [
+        "pathe"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200825/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200741/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200762/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200768/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200841/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201077/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201087/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201150/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201120/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201137/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201010/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201027/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201043/booking"
+        }
+      ]
+    },
+    {
+      "id": "primetime",
+      "title": "Primetime",
+      "director": "Lance Oppenheim",
+      "duration": "1h49",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880965-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1790060540-1024x576.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/primetime-54936",
+      "film_page_url": "https://www.toulourama.fr/film/primetime/",
+      "synopsis": "En 2006, Chris Hansen, le présentateur de l'émission To Catch a Predator, entreprend de marquer l’histoire de la télévision.",
+      "cast": "",
+      "genre": "Etats-UnisBiopic, PolicierAvec Merritt Wever, Robert Pattinson, Phoebe Bridgers",
+      "imdb": {
+        "imdb_id": "tt0096680",
+        "rating": "5.8",
+        "votes": "145",
+        "plot_en": "A nighttime news program similar to 60 minutes and 20/20. Veteran newscasters Diane Sawyer and Sam Donaldson provide an in-depth look at the kinds of news stories that often do not receive much air time on regular news broadcasts. Frequent topics included product safety warnings, possible government or business improprieties, and human interest stories about sick children.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGE3YmMyNjAtM2Y5OC00ZDhlLWIwNmQtNWQ0NWYyMGQzYmE3XkEyXkFqcGdeQXVyMTkzODUwNzk@._V1_SX300.jpg",
+        "metascore": "N/A",
+        "year": "1989–2012",
+        "actors": "Diane Sawyer, Charles Gibson, Chris Wallace",
+        "omdb_title": "Primetime"
+      },
+      "cinemas": [
+        "pathe"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200831/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200753/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200765/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200784/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201079/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201112/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201126/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201138/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201002/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201035/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201061/booking"
         }
       ]
     },
@@ -1449,7 +1557,7 @@ window.CINEMA_DATA = {
       "title": "Digger",
       "director": "Alejandro González Iñárritu",
       "duration": "2h09",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269525-225x300.jpg",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880899-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1790060476-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/digger-51293",
       "film_page_url": "https://www.toulourama.fr/film/digger/",
@@ -1467,338 +1575,172 @@ window.CINEMA_DATA = {
         "actors": "Vangelis Mourikis, Argyris Pandazaras, Sofia Kokkali",
         "omdb_title": "Digger"
       },
+      "cinemas": [
+        "pathe",
+        "abc"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "11:00",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200399/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200820/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "13:15",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200402/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200840/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:45",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:15",
           "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200427/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "18:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200417/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200437/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200758/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200459/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200479/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200482/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200497/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200507/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200517/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200539/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200561/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200564/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200579/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200589/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200599/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200621/booking"
-        }
-      ]
-    },
-    {
-      "id": "lodyssee",
-      "title": "L'Odyssée",
-      "director": "Christopher Nolan",
-      "duration": "2h52",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/07/1791269552-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/07/1783413119-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/l-odyssee-43836",
-      "film_page_url": "https://www.toulourama.fr/film/lodyssee/",
-      "synopsis": "Découvrez quelques heures avant sa sortie la nouvelle fresque épique de Christopher Nolan, adaptée du poème L’Odyssée d’Homère ! Dans la nuit du mardi 14 au mercredi 15 juillet, à 00h05.",
-      "cast": "",
-      "genre": "Etats-Unis2026Action, FantastiqueAvec Tom Holland, Charlize Theron, Matt Damon",
-      "imdb": {
-        "imdb_id": "tt0302882",
-        "rating": "5.3",
-        "votes": "564",
-        "plot_en": "After reading a bedtime storyto her daughter, Alice Tremblay leaves her daughter's room and entersher own fairytale. After battling a sexy big, bad wolf and saving RedRiding Hood, she encounters Prince Ludwig who helps Alice return to her world inexchange for her teaching him how to kiss so that he can pass his finalexam to become Prince Charming. Along they way they meet every familiarfairytale character, though in a decidely different form or personality.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNDMxYmRlMzUtYmNmOS00NTYwLTk3NzktNjY2NjNlOTg5ZjY2XkEyXkFqcGdeQXVyNjEzMTg5Njk@._V1_SX300.jpg",
-        "metascore": "N/A",
-        "year": "2002",
-        "actors": "Sophie Lorain, Martin Drainville, Pierrette Robitaille",
-        "omdb_title": "L'odyssée d'Alice Tremblay"
-      },
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200401/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200481/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200529/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200563/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "21:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200611/booking"
-        }
-      ]
-    },
-    {
-      "id": "heart-of-the-beast",
-      "title": "Heart of The Beast",
-      "director": "David Ayer",
-      "duration": "1h41",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269545-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1789455584-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/heart-of-the-beast-52822",
-      "film_page_url": "https://www.toulourama.fr/film/heart-of-the-beast/",
-      "synopsis": "Après un terrible crash d’avion, James Belmont, ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujours à ses côtés. Livrés à eux-mêmes dans une nature aussi magnifique qu’impitoyable, ils devront puiser dans leurs dernières forces pour survivre ensemble.blue text-uppercase see-more> voir moins",
-      "cast": "",
-      "genre": "Etats-UnisAction, AventureAvec Brad Pitt, Uber, J.K. Simmons",
-      "imdb": {
-        "imdb_id": "tt7526136",
-        "rating": "7.5",
-        "votes": "542",
-        "plot_en": "After a harrowing plane crash, a Special Forces officer and his combat dog find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMDVlMTRhMjgtMjdmZi00NjJhLWExMmYtODExNWJkZGZjNjdhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "metascore": "N/A",
-        "year": "2026",
-        "actors": "Brad Pitt, J.K. Simmons, Anna Lambe",
-        "omdb_title": "Heart of the Beast"
-      },
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200403/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "19:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200440/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200769/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200463/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:30",
-          "cinema": "Pathé Wilson",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200483/booking"
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRTEUUP#showsession?id=emsx094700092094&ps=EMS0947"
         },
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200505/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200520/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "22:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200543/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200788/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:30",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "11:00",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201083/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201089/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201105/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRTEUUP#showsession?id=emsx094700091721&ps=EMS0947"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200565/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201124/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:45",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "11:00",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200631/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201006/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:45",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:15",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200587/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201012/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201028/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRTEUUP#showsession?id=emsx094700092096&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
           "time": "19:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200602/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201047/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:30",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:15",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRTEUUP#showsession?id=emsx094700092357&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "22:15",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200625/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201066/booking"
         }
       ]
     },
@@ -1807,7 +1749,7 @@ window.CINEMA_DATA = {
       "title": "Resident Evil",
       "director": "Zach Cregger",
       "duration": "1h34",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269618-225x300.jpg",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880970-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1789455643-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/resident-evil-48830",
       "film_page_url": "https://www.toulourama.fr/film/resident-evil/",
@@ -1825,102 +1767,793 @@ window.CINEMA_DATA = {
         "actors": "Milla Jovovich, Michelle Rodriguez, Ryan McCluskey",
         "omdb_title": "Resident Evil"
       },
+      "cinemas": [
+        "pathe"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:15",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:00",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200411/booking"
-        },
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200420/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200842/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "20:15",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:30",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200447/booking"
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201457/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200836/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200777/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200790/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201075/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201116/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201123/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
           "time": "22:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200461/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201139/booking"
         },
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:15",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:45",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200491/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201459/booking"
         },
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:15",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:15",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200500/booking"
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201458/booking"
         },
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
           "time": "20:00",
           "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200527/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200541/booking"
-        },
+          "booking_url": "https://s.pathe.fr/fr/V3358S201046/booking"
+        }
+      ]
+    },
+    {
+      "id": "le-corset",
+      "title": "Le Corset",
+      "director": "Louis Clichy",
+      "duration": "1h31",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/07/1791880931-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/07/l_6_-eddy-cinema-beside-productions-regular-production-france-3-cinema-auvergne-rhone-alpes-cinema-rtbf.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/le-corset-50112",
+      "film_page_url": "https://www.toulourama.fr/film/le-corset/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "pathe",
+        "cosmo",
+        "utopia"
+      ],
+      "seances": [
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:15",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:00",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200573/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200823/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:15",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:00",
           "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200582/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "20:15",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200609/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200810/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:30",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:10",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200809/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:40",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200808/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201084/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201097/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201102/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201122/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201007/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201020/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201025/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201045/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:15",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "ni-vue-ni-connue",
+      "title": "Ni vue, ni connue",
+      "director": "Marc Fitoussi",
+      "duration": "1h55",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880950-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269585-1-1024x576.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/ni-vue-ni-connue-52015",
+      "film_page_url": "https://www.toulourama.fr/film/ni-vue-ni-connue/",
+      "synopsis": "Corinne Maclou est figurante. Elle enchaîne les tournages avec l’espoir d’être remarquée et de décrocher enfin un vrai rôle. Lorsque son chemin croise celui de Sandrine Kiberlain et qu’une relation commence à se nouer entre les deux, Corinne espère concrétiser son rêve. Mais la célèbre actrice va-t-elle vraiment l’aider à se faire une place au sein de la grande famille ducinéma ?",
+      "cast": "",
+      "genre": "FranceComédieAvec Isabelle Huppert, Sandrine Kiberlain, Anne Marivin",
+      "imdb": {
+        "imdb_id": "tt0387440",
+        "rating": "6.1",
+        "votes": "11",
+        "plot_en": "",
+        "poster": "",
+        "metascore": "N/A",
+        "year": "2003",
+        "actors": "Valérie Donzelli, Guillaume Saurrel, Marie Gili-Pierre, Djibril Glissant",
+        "omdb_title": "Ni vue, ni connue"
+      },
+      "cinemas": [
+        "pathe"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200826/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200738/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200752/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200773/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201149/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201095/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201108/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201121/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201008/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201018/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201031/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201044/booking"
+        }
+      ]
+    },
+    {
+      "id": "notre-salut",
+      "title": "Notre salut",
+      "director": "Emmanuel Marre",
+      "duration": "2h35",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791880955-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1779187704-1-1024x576.jpg",
+      "fiche_pathe": "https://www.american-cosmograph.fr/notre-salut.html",
+      "film_page_url": "https://www.toulourama.fr/film/notre-salut/",
+      "synopsis": "Septembre 1940, le régime de Pétain se met en place. Henri Marre, 49 ans, débarque à Vichy sans le sou, sans contact, loin de sa femme et ses enfants. Il voit dans la nouvelle administration l’opportunité de trouver enfin la place qu’il mérite. Dans sa valise, son traité politique édité à compte d’auteur, Notre Salut, où il défend ses convictions patriotiques et ses méthodes d'ingénieur. Son credo : « gagner en efficacité » pour relever la France de la débâcle. Mais peut-être qu’Henri cherche avant tout à fuir sa propre débâcle…",
+      "cast": "",
+      "genre": "Belgique2026Comédie, HistoriqueAvec Swann Arlaud, Mathieu Perotto, Sandrine Blancke",
+      "imdb": null,
+      "cinemas": [
+        "cosmo",
+        "utopia",
+        "pathe"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:10",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200737/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200754/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200766/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201090/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201110/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201127/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:15",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201013/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201033/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201050/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "ni-vue-ni-connue-2",
+      "title": "Ni vue ni connue",
+      "director": "Marc Fitoussi",
+      "duration": "1h55",
+      "poster_toulourama": "",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_03.-nivueniconnue_053_tag4171hd-ejeromeprebois.jpg",
+      "fiche_pathe": "https://www.american-cosmograph.fr/ni-vue-ni-connue.html",
+      "film_page_url": "https://www.toulourama.fr/film/ni-vue-ni-connue-2/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "cosmo"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:10",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:40",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "butterfly-jam",
+      "title": "Butterfly Jam",
+      "director": "Kantemir Balagov",
+      "duration": "1h42",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/butterfly20aff20site-1-220x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/cacd388273de6be0ee78334d0f607565.jpg",
+      "fiche_pathe": "https://abc-toulouse.fr/1253-butterfly-jam.html",
+      "film_page_url": "https://www.toulourama.fr/film/butterfly-jam/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "abc"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "12:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200623/booking"
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR54LR9#showsession?id=emsx094700091481&ps=EMS0947"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "12:50",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR54LR9#showsession?id=emsx094700091496&ps=EMS0947"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR54LR9#showsession?id=emsx094700091509&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR54LR9#showsession?id=emsx094700091513&ps=EMS0947"
         }
       ]
     },
@@ -1929,7 +2562,7 @@ window.CINEMA_DATA = {
       "title": "Cars",
       "director": "John  Lasseter",
       "duration": "1h58",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269517-225x300.jpg",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880893-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/172151-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/cars",
       "film_page_url": "https://www.toulourama.fr/film/cars/",
@@ -1947,120 +2580,699 @@ window.CINEMA_DATA = {
         "actors": "Owen Wilson, Bonnie Hunt, Paul Newman",
         "omdb_title": "Cars"
       },
+      "cinemas": [
+        "pathe"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:30",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:00",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200415/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200832/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "17:00",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200430/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200745/booking"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "18:45",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:00",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200464/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201088/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:45",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200629/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201101/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201011/booking"
         }
       ]
     },
     {
-      "id": "la-bola-negra",
-      "title": "La Bola negra",
-      "director": "Javier Calvo, Javier Ambrossi",
-      "duration": "2h39",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269559-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_lbn_20250910_0265_carlaoset_web.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/la-bola-negra-52928",
-      "film_page_url": "https://www.toulourama.fr/film/la-bola-negra/",
-      "synopsis": "À travers trois époques de l’histoire espagnole (1932, 1937 et 2017), La bola negra brosse le portrait de trois hommes dont les vies, marquées par le secret, finissent par se rejoindre de manière inattendue. Sebastián, un jeune trompettiste enrôlé de force dans l’armée franquiste après le bombardement de son village est chargé de surveiller un prisonnier républicain durantla guerre civile espagnole. La rencontre bouleverse son existence. Des décennies plus tard à Madrid, Alberto tente de comprendre les silences qui hantent sa famille. Carlos lui, est soumis aux injonctions de son père. Ce film de guerre et d’amour épique traverse le temps pour révéler ce qui les unit avec, en filigrane, l’héritage émotionnel de Federico García Lorca.Javier Calvo et Javier Ambrossi, connus sous le surnom « Los Javis », font une entrée fracassante dans le cinéma après une carrière télévisuelle remarquée – ils sont notamment à l'origine de la géniale série La Mesías. D'une ambition folle, La bola negra mélange les genres et les temporalités avec une fluidité impressionnante. Alliant relecture historique, élans poétiques et goût assumé pour le kitsch, cette oeuvre emballante n'est pas sans rappeler les meilleures années d'un certain Pedro Almodóvar...PRIX DE LA MISE EN SCÈNE • FESTIVAL DE CANNES 2026",
+      "id": "lespece-explosive",
+      "title": "L'Espèce explosive",
+      "director": "Sarah Arnold",
+      "duration": "1h35",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/espece20aff20site-1-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/l_retouche-especeexplosive-photogramme-tiff-16bits-3840x2160-a-0013c009-250925-172901-h1ekt-ec-rec709g24-20260413-copie_o_1joget83i1fgtlqu1sqoakb188lj.jpg",
+      "fiche_pathe": "https://abc-toulouse.fr/1250-l-espece-explosive.html",
+      "film_page_url": "https://www.toulourama.fr/film/lespece-explosive/",
+      "synopsis": "",
       "cast": "",
-      "genre": "Espagne2026DrameAvec Guitarricadelafuente, Miguel Bernardeau, Carlos González, Milo Quifes, Penélope Cruz, Lola Dueñas, Glenn Close, ...",
-      "imdb": {
-        "imdb_id": "tt35511966",
-        "rating": "7.0",
-        "votes": "820",
-        "plot_en": "Explores what it means to be gay throughout different eras, focusing on \"three existences\" that are connected through themes of sexuality, desire, pain, and inheritance.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOGU5ODg4MDMtNjliOS00YWYzLWFlOGUtOGUwMjNmZGUyOWQ0XkEyXkFqcGc@._V1_QL75_UY562_CR7,0,380,562_.jpg",
-        "metascore": "86",
-        "year": "2026",
-        "actors": "Penélope Cruz, Glenn Close, Miguel Bernardeau",
-        "omdb_title": "La bola negra"
-      },
-      "seances": [
-        {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200006/booking"
-        }
-      ]
-    },
-    {
-      "id": "rue-malaga",
-      "title": "Rue Málaga",
-      "director": "Maryam Touzani",
-      "duration": "1h55",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/02/1791269620-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/02/l_rue-malaga-photo-1-les-films-du-nouveau-monde.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/rue-malaga-48633",
-      "film_page_url": "https://www.toulourama.fr/film/rue-malaga/",
-      "synopsis": "Tanger, ville cosmopolite du nord du Maroc, a longtemps abrité une importante communauté espagnole. Celle-ci a peu à peu disparu avec le départ des enfants, génération après génération... Maria Angeles, elle, est restée. Femme de caractère attachée à son quotidien dans la rue Málaga, elle y a ses habitudes et connaît tout le monde. Un jour, sa fille Clara débarque. En difficulté, elle a mis en vente l'appartement dans lequel sa mère a toujours vécu. Cette décision ébranle Maria Angeles, qui va devoir se battre pour garder sa maison. Contre toute attente, elle redécouvre en chemin l'amour et le plaisir...Nous le savons depuis Adam et Le bleu du caftan, Maryam Touzani est une cinéaste des émotions. Rue Málaga s'inspire à la fois de sa mère et de sa grand-mère. Ancré dans la ville de Tanger, le récit suit la lente renaissance de Maria Angeles. Se sentant d'abord obligée par son rôle de mère, elle accepte de vendre son appartement. Ce dépouillement contraint se transforme paradoxalement en une pulsion de vie que Maryam Touzani saisit avec délicatesse mais sans fausse pudeur. Elle filme avec douceur la redécouverte de son corps, de son désir, de sa sensualité. Elle ajoute même une touche de malice irrésistible quand Maria Angeles raconte avec force détails ses aventures à son amie Josepha, bonne soeur ayant fait voeu de silence. Pour récupérer son appartement, Maria Angeles trouve également une idée à la fois conviviale et transgressive. Porté par une Carmen Maura exceptionnelle, Rue Málaga est à la fois courageux, subversif, drôle, touchant... et tout simplement beau.PRIX DU PUBLIC, SECTION ORIZZONTI • MOSTRA DE VENISE 2025",
-      "cast": "",
-      "genre": "Maroc, France, Espagne, Allemagne, Belgique2026Comédie dramatiqueAvec Carmen Maura, Marta Etura, Ahmed Boulane, María Alfonsa Rosso, ...",
+      "genre": "",
       "imdb": null,
+      "cinemas": [
+        "abc"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "15:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S199311/booking"
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091487&ps=EMS0947"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:10",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091484&ps=EMS0947"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:50",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091722&ps=EMS0947"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:50",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091504&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091525&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091517&ps=EMS0947"
         }
       ]
     },
     {
-      "id": "shaun-le-mouton-la-beeete-dhalloween",
-      "title": "Shaun le Mouton : La Bêêête d'Halloween",
-      "director": "Matthew Walker, Steve Cox",
-      "duration": "1h20",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269623-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269623-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/shaun-le-mouton-la-beeete-d-halloween-50394",
-      "film_page_url": "https://www.toulourama.fr/film/shaun-le-mouton-la-beeete-dhalloween/",
-      "synopsis": "A Halloween, les habitants de la ferme de Mossy Bottom se réjouissent des festivités, jusqu’à ce que le Fermier maladroit saccage les citrouilles bien-aimées du troupeau. Lorsque Shaun se transforme en scientifique fou pour résoudre le problème, les choses dérapent : le Fermier disparaît et une bête sauvage rôde dans les bois.",
+      "id": "low-expectations",
+      "title": "Low expectations",
+      "director": "Eivind Landsvik",
+      "duration": "1h45",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/MQRPCN5C-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/l_main-still_lf_dogs_16-9-scaled-1.jpg",
+      "fiche_pathe": "https://www.american-cosmograph.fr/low-expectations.html",
+      "film_page_url": "https://www.toulourama.fr/film/low-expectations/",
+      "synopsis": "",
       "cast": "",
-      "genre": "Grande-BretagneAnimation, Comédie, Famille",
+      "genre": "",
       "imdb": null,
+      "cinemas": [
+        "cosmo"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "qui-vit-encore",
+      "title": "Qui vit encore",
+      "director": "Nicolas Wadimoff",
+      "duration": "1h54",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/S7INDHFH-200x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/797dbb416cfcf6305ccf076e0b13e6a9.jpg",
+      "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "film_page_url": "https://www.toulourama.fr/film/qui-vit-encore/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "utopia"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:15",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "la-vie-dune-femme-2",
+      "title": "La Vie d'une femme",
+      "director": "Charline Bourgeois-Tacquet",
+      "duration": "1h38",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/46d4170eaca90b7bd1dae27db18ed739-5-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/l_dsc08181lucas-charrier.jpg",
+      "fiche_pathe": "https://www.american-cosmograph.fr/la-vie-dune-femme.html",
+      "film_page_url": "https://www.toulourama.fr/film/la-vie-dune-femme-2/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "cosmo",
+        "utopia"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:20",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:45",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "petite-casbah",
+      "title": "Petite Casbah",
+      "director": "Antoine Colomb",
+      "duration": "1h24",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/petite20casbah20aff20site-225x300.jpg",
+      "backdrop": "",
+      "fiche_pathe": "https://abc-toulouse.fr/1281-petite-casbah.html",
+      "film_page_url": "https://www.toulourama.fr/film/petite-casbah/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "abc"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRGIW1R#showsession?id=emsx094700091488&ps=EMS0947"
+        }
+      ]
+    },
+    {
+      "id": "raison-et-sentiments",
+      "title": "Raison et Sentiments",
+      "director": "Georgia Oakley",
+      "duration": "2h15",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/25065d844cf983b62abba5f0ca2c1a64-2-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/95ef5571a75f0a3b926f5126d9c8571c-1024x615.jpg",
+      "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "film_page_url": "https://www.toulourama.fr/film/raison-et-sentiments/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "utopia",
+        "abc"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRYPL2X#showsession?id=emsx094700091490&ps=EMS0947"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
           "time": "16:00",
-          "cinema": "Pathé Wilson",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRYPL2X#showsession?id=emsx094700091507&ps=EMS0947"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRYPL2X#showsession?id=emsx094700092361&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRYPL2X#showsession?id=emsx094700091523&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "le-monde-a-lenvers",
+      "title": "Le Monde à l'envers",
+      "director": "Arnaud Demuynck, Noé Garcia, Erwann Hette",
+      "duration": "0h45",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/695460e78e996175a81de234a0603f87-3-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/319f3d6b88de3f1a691794557e6c8659-1024x554.jpg",
+      "fiche_pathe": "https://abc-toulouse.fr/1212-le-monde-a-l-envers.html",
+      "film_page_url": "https://www.toulourama.fr/film/le-monde-a-lenvers/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "abc"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S198675/booking"
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRD600L#showsession?id=emsx094700091855&ps=EMS0947"
+        }
+      ]
+    },
+    {
+      "id": "le-jour-de-son-retour",
+      "title": "Le Jour de son retour",
+      "director": "Hong Sang-soo",
+      "duration": "1h25",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/le20jour20de20aff20site-225x300.jpg",
+      "backdrop": "",
+      "fiche_pathe": "https://abc-toulouse.fr/1313-le-jour-de-son-retour.html",
+      "film_page_url": "https://www.toulourama.fr/film/le-jour-de-son-retour/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "abc"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:20",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700092092&ps=EMS0947"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700092316&ps=EMS0947"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "12:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700092095&ps=EMS0947"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:50",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700091723&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:45",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700092098&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:10",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700092097&ps=EMS0947"
+        }
+      ]
+    },
+    {
+      "id": "joyeuse-jungle",
+      "title": "Joyeuse jungle",
+      "director": "Edmunds Jansons",
+      "duration": "1h10",
+      "poster_toulourama": "",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_bornlm1_visual04.jpg",
+      "fiche_pathe": "https://www.american-cosmograph.fr/joyeuse-jungle.html",
+      "film_page_url": "https://www.toulourama.fr/film/joyeuse-jungle/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "cosmo"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:20",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "le-cygne-et-lenfant",
+      "title": "Le Cygne et l'enfant",
+      "director": "Miyoung Baek",
+      "duration": "0h39",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/15IUEFH2-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/96b6b029010c053cf9333506f9e1908d-1024x576.jpg",
+      "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "film_page_url": "https://www.toulourama.fr/film/le-cygne-et-lenfant/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "utopia"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "heart-of-the-beast",
+      "title": "Heart of The Beast",
+      "director": "David Ayer",
+      "duration": "1h41",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880913-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1789455584-1-1024x576.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/heart-of-the-beast-52822",
+      "film_page_url": "https://www.toulourama.fr/film/heart-of-the-beast/",
+      "synopsis": "Après un terrible crash d’avion, James Belmont, ancien des forces spéciales, se retrouve perdu au cœur de l’Alaska avec son chien Odin, depuis toujours à ses côtés. Livrés à eux-mêmes dans une nature aussi magnifique qu’impitoyable, ils devront puiser dans leurs dernières forces pour survivre ensemble.blue text-uppercase see-more> voir moins",
+      "cast": "",
+      "genre": "Etats-UnisAction, AventureAvec Brad Pitt, Uber, J.K. Simmons",
+      "imdb": {
+        "imdb_id": "tt7526136",
+        "rating": "7.5",
+        "votes": "542",
+        "plot_en": "After a harrowing plane crash, a Special Forces officer and his combat dog find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDVlMTRhMjgtMjdmZi00NjJhLWExMmYtODExNWJkZGZjNjdhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+        "metascore": "N/A",
+        "year": "2026",
+        "actors": "Brad Pitt, J.K. Simmons, Anna Lambe",
+        "omdb_title": "Heart of the Beast"
+      },
+      "cinemas": [
+        "pathe"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200756/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200837/booking"
+        },
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200838/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201151/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201114/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201037/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201067/booking"
+        }
+      ]
+    },
+    {
+      "id": "le-chant-des-oliviers",
+      "title": "Le Chant des oliviers",
+      "director": "Alex Camilleri",
+      "duration": "1h48",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/VSN7ZJ48-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_zejtune_01_6459x3491_300ppi.jpg",
+      "fiche_pathe": "https://www.american-cosmograph.fr/le-chant-des-oliviers.html",
+      "film_page_url": "https://www.toulourama.fr/film/le-chant-des-oliviers/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "cosmo"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
         }
       ]
     },
@@ -2069,9 +3281,9 @@ window.CINEMA_DATA = {
       "title": "Mémoire de fille",
       "director": "Judith Godrèche",
       "duration": "1h57",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791269579-225x300.jpg",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/memoire20de20fille20aff20site-2-221x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1779187683-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/memoire-de-fille-52572",
+      "fiche_pathe": "https://abc-toulouse.fr/1300-memoire-de-fille.html",
       "film_page_url": "https://www.toulourama.fr/film/memoire-de-fille/",
       "synopsis": "Annie Ernaux est sollicitée pour une signature de son dernier ouvrage dans la ville de son enfance, Rouen. Alors qu’elle s’y rend, elle est prise d’un vertige et replonge dans le souvenir de l’été 1958, celui de sa première nuit avec un homme. Nuit dont l’onde de choc s’est propagée violemment dans son corps et sur le reste de son existence.",
       "cast": "",
@@ -2087,162 +3299,259 @@ window.CINEMA_DATA = {
         "actors": "Tess Barthélémy, Valérie Dréville, Victor Bonnel",
         "omdb_title": "Mémoire de fille"
       },
+      "cinemas": [
+        "abc"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:10",
+          "cinema": "ABC",
+          "cinema_id": "abc",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200429/booking"
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR5HWQI#showsession?id=emsx094700091486&ps=EMS0947"
         },
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200443/booking"
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR5HWQI#showsession?id=emsx094700091501&ps=EMS0947"
         },
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:50",
+          "cinema": "ABC",
+          "cinema_id": "abc",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200545/booking"
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR5HWQI#showsession?id=emsx094700092318&ps=EMS0947"
         },
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:45",
+          "cinema": "ABC",
+          "cinema_id": "abc",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200509/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200523/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200632/booking"
-        },
-        {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200591/booking"
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR5HWQI#showsession?id=emsx094700091518&ps=EMS0947"
         }
       ]
     },
     {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man : Brand New Day",
-      "director": "Destin Daniel  Cretton",
-      "duration": "2h25",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/07/1791269629-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/07/d1a5b42cbd13d3423a97003cf5454564-1024x429.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/spider-man-brand-new-day-47729",
-      "film_page_url": "https://www.toulourama.fr/film/spider-man-brand-new-day/",
-      "synopsis": "C’est un tout nouveau jour pour Peter Parker Dans un monde qui ne se souvient plus de lui, il poursuit sans relâche sa lutte contre la criminalité. Mais le sentiment d’avoir été oublié par ses amis qui avancent désormais sans lui provoque un changement chez Peter qu’il n’est peut-être pas en mesure de contrôler. Et pourtant, c’est cette mutation qui pourrait être sa seulechance de s’opposer à un adversaire terrifiant, capable d’agir sans jamais être repéré et prêt à s’attaquer à la ville et à tous les proches de Spider-Man. Car si le monde ne se souvient plus de Peter Parker, lui ne l’a pas oublié…",
+      "id": "fini-de-rire-lhumour-politique-au-garde-a-vous",
+      "title": "Fini de rire ! l'humour politique au garde à vous",
+      "director": "Jean-Baptiste Rivoire, Mateo Larroque, Clara M...",
+      "duration": "1h37",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/e5a1946e5fd253382f636dc7a26252db-3-226x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/l_fini-de-rire_visuel1.png",
+      "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "film_page_url": "https://www.toulourama.fr/film/fini-de-rire-lhumour-politique-au-garde-a-vous/",
+      "synopsis": "",
       "cast": "",
-      "genre": "Etats-UnisAction, Science Fiction, Aventure, FantastiqueAvec avec Tom Holland, Zendaya, Sadie Sink",
-      "imdb": {
-        "imdb_id": "tt22084616",
-        "rating": "8.0",
-        "votes": "327,986",
-        "plot_en": "Four years have passed since the events of No Way Home, and Peter is now an adult living entirely alone, having voluntarily erased himself from the lives and memories of those he loves. Crime-fighting in a New York that no longer knows his name, he's devoted himself entirely to protecting his city - a full-time Spider-Man - but as the demands on him intensify, the pressure sparks a surprising physical evolution that threatens his existence, even as a strange new pattern of crimes gives rise to one of the most powerful threats he has ever faced.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "metascore": "66",
-        "year": "2026",
-        "actors": "Tom Holland, Zendaya, Mark Ruffalo",
-        "omdb_title": "Spider-Man: Brand New Day"
-      },
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "utopia",
+        "cosmo"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200439/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200519/booking"
+          "booking_url": ""
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200601/booking"
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:40",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:15",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
         }
       ]
     },
     {
-      "id": "avengers-endgame-extended",
-      "title": "Avengers : Endgame Extended",
-      "director": "Joe Russo, Anthony Russo",
-      "duration": "3h06",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269514-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1790060472-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/avengers-endgame-extended-55176",
-      "film_page_url": "https://www.toulourama.fr/film/avengers-endgame-extended/",
-      "synopsis": "Dans Avengers Endgame Extended, les Avengers doivent faire face aux conséquences de leur défaite contre Thanos. Après avoir réuni les six Pierres d’Infinité et anéanti la moitié de la population de l’univers, dont nombre de leurs alliés, le Titan fou a laissé derrière lui un monde profondément bouleversé. Confrontés à la plus grande épreuve de leur histoire, les héros restants doivent trouver la force de se relever, se rassembler une nouvelle fois et tenter l’impossible : restaurer l’équilibre de l’univers, ramener ceux qu’ils ont perdus et vaincre Thanos une fois pour toutes.voir moins",
+      "id": "aprile",
+      "title": "Aprile",
+      "director": "Nanni Moretti",
+      "duration": "1h18",
+      "poster_toulourama": "",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_aprile-1-studiocanal-malavida.png",
+      "fiche_pathe": "https://www.american-cosmograph.fr/aprile.html",
+      "film_page_url": "https://www.toulourama.fr/film/aprile/",
+      "synopsis": "",
       "cast": "",
-      "genre": "Etats-UnisAction, Science Fiction, AventureAvec Robert Downey Jr., Chris Evans, Mark Ruffalo",
-      "imdb": {
-        "imdb_id": "tt4154796",
-        "rating": "8.4",
-        "votes": "1,497,908",
-        "plot_en": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "metascore": "78",
-        "year": "2019",
-        "actors": "Robert Downey Jr., Chris Evans, Mark Ruffalo",
-        "omdb_title": "Avengers: Endgame"
-      },
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "cosmo"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "21:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200450/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200544/booking"
+          "booking_url": ""
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "ou-vont-les-ames",
+      "title": "Où vont les âmes",
+      "director": "Brigitte Poupart",
+      "duration": "2h01",
+      "poster_toulourama": "",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_ovla9.png",
+      "fiche_pathe": "https://www.american-cosmograph.fr/ou-vont-les-ames.html",
+      "film_page_url": "https://www.toulourama.fr/film/ou-vont-les-ames/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "cosmo"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:10",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200626/booking"
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:40",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "lodyssee",
+      "title": "L'Odyssée",
+      "director": "Christopher Nolan",
+      "duration": "2h52",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/07/1791880922-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/07/1783413119-1024x576.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/l-odyssee-43836",
+      "film_page_url": "https://www.toulourama.fr/film/lodyssee/",
+      "synopsis": "Découvrez quelques heures avant sa sortie la nouvelle fresque épique de Christopher Nolan, adaptée du poème L’Odyssée d’Homère ! Dans la nuit du mardi 14 au mercredi 15 juillet, à 00h05.",
+      "cast": "",
+      "genre": "Etats-Unis2026Action, FantastiqueAvec Tom Holland, Charlize Theron, Matt Damon",
+      "imdb": {
+        "imdb_id": "tt0302882",
+        "rating": "5.3",
+        "votes": "564",
+        "plot_en": "After reading a bedtime storyto her daughter, Alice Tremblay leaves her daughter's room and entersher own fairytale. After battling a sexy big, bad wolf and saving RedRiding Hood, she encounters Prince Ludwig who helps Alice return to her world inexchange for her teaching him how to kiss so that he can pass his finalexam to become Prince Charming. Along they way they meet every familiarfairytale character, though in a decidely different form or personality.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDMxYmRlMzUtYmNmOS00NTYwLTk3NzktNjY2NjNlOTg5ZjY2XkEyXkFqcGdeQXVyNjEzMTg5Njk@._V1_SX300.jpg",
+        "metascore": "N/A",
+        "year": "2002",
+        "actors": "Sophie Lorain, Martin Drainville, Pierrette Robitaille",
+        "omdb_title": "L'odyssée d'Alice Tremblay"
+      },
+      "cinemas": [
+        "pathe",
+        "cosmo"
+      ],
+      "seances": [
+        {
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200767/booking"
+        },
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "21:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201134/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201057/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:20",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
         }
       ]
     },
@@ -2251,7 +3560,7 @@ window.CINEMA_DATA = {
       "title": "Obsession",
       "director": "Curry Barker",
       "duration": "1h48",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791269594-225x300.jpg",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1791880958-225x300.jpg",
       "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1777988434-1-1024x576.jpg",
       "fiche_pathe": "https://www.pathe.fr/films/obsession-50502",
       "film_page_url": "https://www.toulourama.fr/film/obsession/",
@@ -2269,2402 +3578,4195 @@ window.CINEMA_DATA = {
         "actors": "Michael Johnston, Inde Navarrette, Cooper Tomlinson",
         "omdb_title": "Obsession"
       },
+      "cinemas": [
+        "pathe"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "21:15",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:30",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200458/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:45",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200538/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200787/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
           "time": "22:15",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201135/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200620/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201058/booking"
         }
       ]
     },
     {
-      "id": "pressure",
-      "title": "Pressure",
-      "director": "Anthony Maras",
-      "duration": "1h40",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791269599-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1788246704-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/pressure-51502",
-      "film_page_url": "https://www.toulourama.fr/film/pressure/",
-      "synopsis": "Dans les soixante-douze heures précédant le Jour J, le chef météorologue britannique James Stagg est appelé à fournir les prévisions les plus importantes de l'histoire afin que les Alliés puissent débarquer sur les plages normandes.",
+      "id": "linvitation",
+      "title": "L'Invitation",
+      "director": "Olivia Wilde",
+      "duration": "1h47",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880919-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/1788862138-1-1024x576.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/l-invitation-52233",
+      "film_page_url": "https://www.toulourama.fr/film/linvitation/",
+      "synopsis": "Angela et Joe invitent leurs mystérieux nouveaux voisins du dessus à dîner. La soirée va alors rapidement faire voler en éclats toutes leurs certitudes.",
       "cast": "",
-      "genre": "Grande-BretagneHistorique, ThrillerAvec Andrew Scott, Brendan Fraser, Kerry Condon",
+      "genre": "Etats-UnisComédieAvec Penélope Cruz, Olivia Wilde, Seth Rogen",
       "imdb": {
-        "imdb_id": "tt32547691",
-        "rating": "7.3",
-        "votes": "37,390",
-        "plot_en": "In the seventy two hours leading up to D-Day, all the pieces are in place except for one key element--the British weather. Britain's chief meteorological officer James Stagg (Scott) is called upon to deliver the most consequential forecast in history, locking him into a tense standoff with the entire Allied leadership. The wrong conditions could devastate the largest ever seaborne invasion, while any delay risks German intelligence catching on. With only his trusted aide Captain Kay Summersby to confide in, and haunted by a catastrophic D-Day rehearsal, the final decision rests with Supreme Allied Commander Dwight D. Eisenhower. With only hours to go, the fate of the war and the lives of millions hang in the balance.",
-        "poster": "https://m.media-amazon.com/images/M/MV5BMjE2YjdkNDctMDg1MS00MjBjLWIyZjEtZWM1ZjczNTAzZGEyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-        "metascore": "69",
-        "year": "2026",
-        "actors": "Andrew Scott, Brendan Fraser, Kerry Condon",
-        "omdb_title": "Pressure"
+        "imdb_id": "tt0132246",
+        "rating": "7.0",
+        "votes": "330",
+        "plot_en": "Tired of being ignored by her husband, a young woman heads off to a nautical-themed nightclub, frequented by rowdy sailors. Her attentions is caught by a handsome naval officer.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWZlNjExMjAtYjY3NS00MDVlLWIxNDEtYjYxMmVkZWI4ZDNhXkEyXkFqcGdeQXVyNzQ1NDIxMDQ@._V1_SX300.jpg",
+        "metascore": "N/A",
+        "year": "1927",
+        "actors": "Raymond Dubreuil, Emma Gynt, Robert Mirfeuil",
+        "omdb_title": "L'invitation au voyage"
       },
+      "cinemas": [
+        "pathe"
+      ],
       "seances": [
         {
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "21:45",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:30",
           "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200453/booking"
-        },
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:45",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200533/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200780/booking"
         },
         {
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "21:45",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "22:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200615/booking"
-        }
-      ]
-    },
-    {
-      "id": "la-bataille-de-gaulle-jecris-ton-nom",
-      "title": "La Bataille de Gaulle : J’écris ton nom",
-      "director": "Antonin  Baudry",
-      "duration": "2h37",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/1791269557-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/1782202759-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/la-bataille-de-gaulle-partie-2-j-ecris-ton-nom-50855",
-      "film_page_url": "https://www.toulourama.fr/film/la-bataille-de-gaulle-jecris-ton-nom/",
-      "synopsis": "Juin 1940. La France s'effondre et signe l’armistice. Au milieu du chaos, un homme refuse de céder. Seul contre tous, ce général inconnu s'échappe vers Londres pour sauver ce qu'il reste d'un rêve : la liberté. Sans armée, sans appui, sans espoir. Mais avec une folle conviction : la France, sa France, n'a pas déposé les armes. Il tente un ultime pari : convaincre le mondeque la bataille de France n'est ni terminée, ni perdue. La réalité est têtue, et lui donne tort. Mais peu à peu se lèvent autour de lui en Angleterre, en France et en Afrique des résistants de l'ombre, des lycéens révoltés, des soldats déterminés. Leur foi, leur audace, leur rage de liberté défient l'Histoire qui semblait pourtant écrite d’avance.",
-      "cast": "",
-      "genre": "FranceThriller, HistoriqueAvec avec Simon Abkarian, Simon Russell Beale, Florian Lesieur",
-      "imdb": null,
-      "seances": [
+          "booking_url": "https://s.pathe.fr/fr/V3358S201142/booking"
+        },
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
           "time": "10:30",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200628/booking"
-        }
-      ]
-    },
-    {
-      "id": "always-lalisa",
-      "title": "Always Lalisa",
-      "director": "Sue Kim",
-      "duration": "1h38",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269509-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269509-1-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/always-lalisa-55314",
-      "film_page_url": "https://www.toulourama.fr/film/always-lalisa/",
-      "synopsis": "Always Lalisa est un long-métrage documentaire qui suit la superstar internationale LISA pendant une année charnière passée loin de Blackpink, le groupe phénomène de K-pop qui a fait d'elle l'une des artistes les plus célèbres au monde. Alors que le groupe met ses activités en pause, LISA entame le véritable premier chapitre de sa carrière solo, se confrontant à cette question : trouver sa propre identité en dehors de Blackpink.",
-      "cast": "",
-      "genre": "Etats-UnisDocumentaireAvec Lisa (Lalisa Manobal)",
-      "imdb": null,
-      "seances": [
-        {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S197455/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S201065/booking"
         }
       ]
     },
     {
-      "id": "naza",
-      "title": "Naza",
-      "director": "Yuval Abraham et Rachel Szor",
-      "duration": "1h17",
-      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/10/1791269581-225x300.jpg",
-      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/10/vu-a-la-mostra-de-venise-2026-le-siderant-documentaire-laquo-naza-raquo-temoigne-du-massacre-a-gaza-1024x576.jpg",
-      "fiche_pathe": "https://www.pathe.fr/films/naza-55618",
-      "film_page_url": "https://www.toulourama.fr/film/naza/",
-      "synopsis": "Filmé de nuit sur les toits de Tel Aviv, le film décrit en détail les systèmes derrière le massacre de civils palestiniens à Gaza par Israël. Par les réalisateurs oscarisés de No other land.",
+      "id": "les-survivants-du-che",
+      "title": "Les Survivants du Che",
+      "director": "Christophe Réveille",
+      "duration": "1h34",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/les20survivants20aff20site-5-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/4529e6036bdeeac1829ef986dd284dbb-1024x574.jpg",
+      "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "film_page_url": "https://www.toulourama.fr/film/les-survivants-du-che/",
+      "synopsis": "",
       "cast": "",
-      "genre": "AngleterreDocumentaireAvec Yuval Abraham",
-      "imdb": {
-        "imdb_id": "tt5223946",
-        "rating": null,
-        "votes": null,
-        "plot_en": "",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZmJhYzA3MTQtNTdjZC00OGFhLWIxYjQtMmY4Yjg2ZWU2ZTAxXkEyXkFqcGdeQXVyMjIzOTQ3NzU@._V1_SX300.jpg",
-        "metascore": "N/A",
-        "year": "2015",
-        "actors": "N/A",
-        "omdb_title": "El Naza: The Black Christ of Portobelo"
-      },
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "utopia"
+      ],
       "seances": [
         {
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "11:45",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "trois-adieux",
+      "title": "Trois adieux",
+      "director": "Isabel Coixet",
+      "duration": "2h",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/07/R16U0ILS-1-221x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/07/l_photo-2.jpg",
+      "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "film_page_url": "https://www.toulourama.fr/film/trois-adieux/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "utopia"
+      ],
+      "seances": [
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:40",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "maison-de-poupee",
+      "title": "Maison de poupée",
+      "director": "Joseph Losey",
+      "duration": "1h46",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/a0789820a75681726562476287df7cfd-1-204x300.jpg",
+      "backdrop": "",
+      "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "film_page_url": "https://www.toulourama.fr/film/maison-de-poupee/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "utopia"
+      ],
+      "seances": [
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "les-roches-rouges",
+      "title": "Les Roches rouges",
+      "director": "Bruno Dumont",
+      "duration": "1h31",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/NEJ0JU13-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/l_les-roches-rouges-1-copyright-rosa-filmes.jpg",
+      "fiche_pathe": "https://www.american-cosmograph.fr/les-roches-rouges.html",
+      "film_page_url": "https://www.toulourama.fr/film/les-roches-rouges/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "cosmo"
+      ],
+      "seances": [
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "ton-animal-maternel",
+      "title": "Ton animal maternel",
+      "director": "Valentina Maurel",
+      "duration": "1h45",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/MOT3FDZP-203x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/50bea34a8346006f09aa8fa82273c627.jpg",
+      "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "film_page_url": "https://www.toulourama.fr/film/ton-animal-maternel/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "utopia"
+      ],
+      "seances": [
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "les-elephants-dans-la-brume",
+      "title": "Les Éléphants dans la brume",
+      "director": "Abinash Bikram Shah",
+      "duration": "1h43",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/00949f4ef8372d0da903da48aa36c1bf-3-221x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/l_001_maya-chameli-pirati-and-joon-underground-talkies-nepal-_-les-valseurs-_-dgs.jpg",
+      "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "film_page_url": "https://www.toulourama.fr/film/les-elephants-dans-la-brume/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "utopia"
+      ],
+      "seances": [
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "la-soiree-des-passionnes-de-la-comedie-francaise",
+      "title": "De la Comédie-Française",
+      "director": "Bertrand Usclat, Martin Darondeau",
+      "duration": "2h00",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/06/9c4daa6e94f7107c83f7d732700c44a0-9-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/06/1781591862-1-1024x576.jpg",
+      "fiche_pathe": "https://www.cinemas-utopia.org/toulouse/",
+      "film_page_url": "https://www.toulourama.fr/film/la-soiree-des-passionnes-de-la-comedie-francaise/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "utopia"
+      ],
+      "seances": [
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "soudain",
+      "title": "Soudain",
+      "director": "Ryûsuke Hamaguchi",
+      "duration": "3h16",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/87LZL48Z-1-221x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1779187730-1-1024x576.jpg",
+      "fiche_pathe": "https://www.american-cosmograph.fr/soudain.html",
+      "film_page_url": "https://www.toulourama.fr/film/soudain/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "cosmo"
+      ],
+      "seances": [
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "fjord",
+      "title": "Fjord",
+      "director": "Cristian Mungiu",
+      "duration": "2h26",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/08/7da334b5a024f1960d11cefab25107bc-4-221x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/08/1787064022-1-1024x576.jpg",
+      "fiche_pathe": "https://abc-toulouse.fr/1230-fjord.html",
+      "film_page_url": "https://www.toulourama.fr/film/fjord/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "abc",
+        "utopia"
+      ],
+      "seances": [
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:20",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRB3CRG#showsession?id=emsx094700092317&ps=EMS0947"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:45",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRB3CRG#showsession?id=emsx094700092099&ps=EMS0947"
+        }
+      ]
+    },
+    {
+      "id": "jim-queen",
+      "title": "Jim Queen",
+      "director": "Marco N'Guyen, Nicolas Athane",
+      "duration": "1h25",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/05/1788862131-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/05/1779187638-1-1024x576.jpg",
+      "fiche_pathe": "https://www.american-cosmograph.fr/jim-queen.html",
+      "film_page_url": "https://www.toulourama.fr/film/jim-queen/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "cosmo"
+      ],
+      "seances": [
+        {
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "21:45",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        }
+      ]
+    },
+    {
+      "id": "karma",
+      "title": "Karma",
+      "director": "Guillaume Canet",
+      "duration": "2h29",
+      "poster_toulourama": "https://www.toulourama.fr/wp-content/uploads/2026/09/1791880916-225x300.jpg",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/0d3ca8ee6f891a65a20a7846e51d5288-1024x576.jpg",
+      "fiche_pathe": "https://www.pathe.fr/films/karma-49700",
+      "film_page_url": "https://www.toulourama.fr/film/karma/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "pathe"
+      ],
+      "seances": [
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
           "time": "20:00",
           "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200001/booking"
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S197344/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S198007/booking"
+        },
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200010/booking"
+        }
+      ]
+    },
+    {
+      "id": "lodyssee-musicale-de-kate-bush",
+      "title": "L'Odyssée musicale de Kate Bush",
+      "director": "Sonia Gonzales",
+      "duration": "52min",
+      "poster_toulourama": "",
+      "backdrop": "https://www.toulourama.fr/wp-content/uploads/2026/09/l_visuel_-_kate_bush_-__signature.png",
+      "fiche_pathe": "https://www.american-cosmograph.fr/l-odyssee-musicale-de-kate-bush.html",
+      "film_page_url": "https://www.toulourama.fr/film/lodyssee-musicale-de-kate-bush/",
+      "synopsis": "",
+      "cast": "",
+      "genre": "",
+      "imdb": null,
+      "cinemas": [
+        "cosmo"
+      ],
+      "seances": [
+        {
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
         }
       ]
     }
   ],
   "days": [
     {
-      "day_id": "20261011",
-      "day_title": "Dimanche 11 octobre",
+      "day_id": "20261014",
+      "day_title": "Mercredi 14 octobre",
       "seances": [
-        {
-          "film_id": "la-bataille-de-gaulle-lage-de-fer",
-          "title": "La Bataille de Gaulle : L’âge de fer",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200386/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200389/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200390/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200388/booking"
-        },
         {
           "film_id": "verity",
           "title": "Verity",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "10:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200387/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200391/booking"
-        },
-        {
-          "film_id": "linvitation",
-          "title": "L'Invitation",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200394/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200392/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200819/booking"
         },
         {
           "film_id": "la-maison-de-nos-reves",
           "title": "La Maison de nos rêves",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:45",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200393/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200395/booking"
-        },
-        {
-          "film_id": "tombe-du-ciel",
-          "title": "Tombé du ciel",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200397/booking"
-        },
-        {
-          "film_id": "si-tu-penses-bien",
-          "title": "Si tu penses bien",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200400/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200398/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200399/booking"
-        },
-        {
-          "film_id": "lodyssee",
-          "title": "L'Odyssée",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200401/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200403/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200402/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200828/booking"
         },
         {
           "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
           "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:30",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:30",
           "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200404/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200406/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200827/booking"
         },
         {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "13:45",
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200407/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200830/booking"
         },
         {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:00",
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:30",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200410/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:00",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200409/booking"
-        },
-        {
-          "film_id": "linvitation",
-          "title": "L'Invitation",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200414/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200824/booking"
         },
         {
           "film_id": "garance",
           "title": "Garance",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:15",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:45",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200412/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200829/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200821/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200825/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200843/booking"
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200831/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200820/booking"
         },
         {
           "film_id": "resident-evil",
           "title": "Resident Evil",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:15",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:00",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200842/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200411/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200823/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200826/booking"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:10",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "ni-vue-ni-connue-2",
+          "title": "Ni vue ni connue",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "11:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "12:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "butterfly-jam",
+          "title": "Butterfly Jam",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "12:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR54LR9#showsession?id=emsx094700091481&ps=EMS0947"
+        },
+        {
+          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200736/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200741/booking"
         },
         {
           "film_id": "cars",
           "title": "Cars",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200415/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200416/booking"
-        },
-        {
-          "film_id": "la-bola-negra",
-          "title": "La Bola negra",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "14:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200006/booking"
-        },
-        {
-          "film_id": "rue-malaga",
-          "title": "Rue Málaga",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "15:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S199311/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200433/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200418/booking"
-        },
-        {
-          "film_id": "shaun-le-mouton-la-beeete-dhalloween",
-          "title": "Shaun le Mouton : La Bêêête d'Halloween",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S198675/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200421/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200423/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200424/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200422/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200419/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200427/booking"
-        },
-        {
-          "film_id": "resident-evil",
-          "title": "Resident Evil",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200420/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200431/booking"
-        },
-        {
-          "film_id": "cars",
-          "title": "Cars",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200430/booking"
-        },
-        {
-          "film_id": "memoire-de-fille",
-          "title": "Mémoire de fille",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200429/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "17:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200426/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "18:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200432/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "18:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200417/booking"
-        },
-        {
-          "film_id": "cars",
-          "title": "Cars",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "18:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200464/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200436/booking"
-        },
-        {
-          "film_id": "spider-man-brand-new-day",
-          "title": "Spider-Man : Brand New Day",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200439/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200434/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200438/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200437/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200440/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200442/booking"
-        },
-        {
-          "film_id": "memoire-de-fille",
-          "title": "Mémoire de fille",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200443/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200444/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200445/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "20:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200441/booking"
-        },
-        {
-          "film_id": "resident-evil",
-          "title": "Resident Evil",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "20:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200447/booking"
-        },
-        {
-          "film_id": "avengers-endgame-extended",
-          "title": "Avengers : Endgame Extended",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "21:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200450/booking"
-        },
-        {
-          "film_id": "obsession",
-          "title": "Obsession",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "21:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200458/booking"
-        },
-        {
-          "film_id": "linvitation",
-          "title": "L'Invitation",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200451/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200435/booking"
-        },
-        {
-          "film_id": "pressure",
-          "title": "Pressure",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "21:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200453/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200456/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200452/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200457/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200455/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200463/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200459/booking"
-        },
-        {
-          "film_id": "si-tu-penses-bien",
-          "title": "Si tu penses bien",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:20",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200460/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200454/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200462/booking"
-        },
-        {
-          "film_id": "resident-evil",
-          "title": "Resident Evil",
-          "day_id": "20261011",
-          "day_title": "Dimanche 11 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200461/booking"
-        }
-      ]
-    },
-    {
-      "day_id": "20261012",
-      "day_title": "Lundi 12 octobre",
-      "seances": [
-        {
-          "film_id": "la-bataille-de-gaulle-jecris-ton-nom",
-          "title": "La Bataille de Gaulle : J’écris ton nom",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200628/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200469/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200470/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200467/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200468/booking"
-        },
-        {
-          "film_id": "linvitation",
-          "title": "L'Invitation",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200474/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200471/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200472/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200473/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200475/booking"
-        },
-        {
-          "film_id": "tombe-du-ciel",
-          "title": "Tombé du ciel",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200477/booking"
-        },
-        {
-          "film_id": "si-tu-penses-bien",
-          "title": "Si tu penses bien",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200480/booking"
-        },
-        {
-          "film_id": "memoire-de-fille",
-          "title": "Mémoire de fille",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200545/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200478/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200479/booking"
-        },
-        {
-          "film_id": "lodyssee",
-          "title": "L'Odyssée",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "13:00",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200481/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200483/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200484/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200486/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200487/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200488/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200490/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200496/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200489/booking"
-        },
-        {
-          "film_id": "resident-evil",
-          "title": "Resident Evil",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200491/booking"
-        },
-        {
-          "film_id": "linvitation",
-          "title": "L'Invitation",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200494/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200492/booking"
-        },
-        {
-          "film_id": "si-tu-penses-bien",
-          "title": "Si tu penses bien",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:30",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200493/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200832/booking"
         },
         {
           "film_id": "digger",
           "title": "Digger",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "14:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200482/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "15:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200498/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200497/booking"
-        },
-        {
-          "film_id": "avengers-endgame-extended",
-          "title": "Avengers : Endgame Extended",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200544/booking"
-        },
-        {
-          "film_id": "resident-evil",
-          "title": "Resident Evil",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200500/booking"
-        },
-        {
-          "film_id": "linvitation",
-          "title": "L'Invitation",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200546/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200501/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200503/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200504/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200502/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200505/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200506/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200507/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200511/booking"
-        },
-        {
-          "film_id": "memoire-de-fille",
-          "title": "Mémoire de fille",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200509/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "17:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200499/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "17:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200512/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "18:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200513/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200516/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200514/booking"
-        },
-        {
-          "film_id": "always-lalisa",
-          "title": "Always Lalisa",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S197455/booking"
-        },
-        {
-          "film_id": "spider-man-brand-new-day",
-          "title": "Spider-Man : Brand New Day",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200519/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200518/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200517/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200520/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200521/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200522/booking"
-        },
-        {
-          "film_id": "memoire-de-fille",
-          "title": "Mémoire de fille",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200523/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200524/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200525/booking"
-        },
-        {
-          "film_id": "resident-evil",
-          "title": "Resident Evil",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "20:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200527/booking"
-        },
-        {
-          "film_id": "naza",
-          "title": "Naza",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "20:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200001/booking"
-        },
-        {
-          "film_id": "lodyssee",
-          "title": "L'Odyssée",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200529/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200515/booking"
-        },
-        {
-          "film_id": "linvitation",
-          "title": "L'Invitation",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200531/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200532/booking"
-        },
-        {
-          "film_id": "pressure",
-          "title": "Pressure",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200533/booking"
-        },
-        {
-          "film_id": "obsession",
-          "title": "Obsession",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "21:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200538/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200536/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200537/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200535/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200542/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200539/booking"
-        },
-        {
-          "film_id": "si-tu-penses-bien",
-          "title": "Si tu penses bien",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:20",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200540/booking"
-        },
-        {
-          "film_id": "resident-evil",
-          "title": "Resident Evil",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200541/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200543/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261012",
-          "day_title": "Lundi 12 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200534/booking"
-        }
-      ]
-    },
-    {
-      "day_id": "20261013",
-      "day_title": "Mardi 13 octobre",
-      "seances": [
-        {
-          "film_id": "la-bataille-de-gaulle-lage-de-fer",
-          "title": "La Bataille de Gaulle : L’âge de fer",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200548/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200551/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200552/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200549/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200550/booking"
-        },
-        {
-          "film_id": "linvitation",
-          "title": "L'Invitation",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200556/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200553/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200554/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200555/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "10:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200557/booking"
-        },
-        {
-          "film_id": "tombe-du-ciel",
-          "title": "Tombé du ciel",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200559/booking"
-        },
-        {
-          "film_id": "si-tu-penses-bien",
-          "title": "Si tu penses bien",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200562/booking"
-        },
-        {
-          "film_id": "memoire-de-fille",
-          "title": "Mémoire de fille",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200632/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200560/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "11:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200561/booking"
-        },
-        {
-          "film_id": "lodyssee",
-          "title": "L'Odyssée",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200563/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "13:15",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200571/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200840/booking"
         },
         {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200564/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "film_id": "lespece-explosive",
+          "title": "L'Espèce explosive",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "13:30",
-          "cinema": "Pathé Wilson",
+          "cinema": "ABC",
+          "cinema_id": "abc",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200565/booking"
-        },
-        {
-          "film_id": "si-tu-penses-bien",
-          "title": "Si tu penses bien",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200575/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200566/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200568/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200569/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "13:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200570/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200572/booking"
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091487&ps=EMS0947"
         },
         {
           "film_id": "resident-evil",
           "title": "Resident Evil",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:15",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:30",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200573/booking"
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201457/booking"
         },
         {
-          "film_id": "linvitation",
-          "title": "L'Invitation",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:15",
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:30",
           "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200576/booking"
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200737/booking"
         },
         {
           "film_id": "garance",
           "title": "Garance",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:15",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:30",
           "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200574/booking"
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200817/booking"
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200740/booking"
         },
         {
           "film_id": "la-maison-de-nos-reves",
           "title": "La Maison de nos rêves",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "14:30",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:45",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200578/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200747/booking"
         },
         {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200802/booking"
+        },
+        {
+          "film_id": "low-expectations",
+          "title": "Low expectations",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "13:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200810/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200797/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200738/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:10",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "qui-vit-encore",
+          "title": "Qui vit encore",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:15",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "la-vie-dune-femme-2",
+          "title": "La Vie d'une femme",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:20",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "petite-casbah",
+          "title": "Petite Casbah",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRGIW1R#showsession?id=emsx094700091488&ps=EMS0947"
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200764/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:45",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091478&ps=EMS0947"
+        },
+        {
+          "film_id": "la-vie-dune-femme-2",
+          "title": "La Vie d'une femme",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "14:45",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "14:45",
           "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200631/booking"
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200807/booking"
+        },
+        {
+          "film_id": "raison-et-sentiments",
+          "title": "Raison et Sentiments",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
         },
         {
           "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
           "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "15:45",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:15",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200580/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200749/booking"
         },
         {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "15:45",
-          "cinema": "Pathé Wilson",
+          "film_id": "le-monde-a-lenvers",
+          "title": "Le Monde à l'envers",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200579/booking"
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRD600L#showsession?id=emsx094700091855&ps=EMS0947"
         },
         {
-          "film_id": "avengers-endgame-extended",
-          "title": "Avengers : Endgame Extended",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "15:45",
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200626/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200588/booking"
-        },
-        {
-          "film_id": "resident-evil",
-          "title": "Resident Evil",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200582/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200581/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200583/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200585/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200586/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200584/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200587/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "16:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200589/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200593/booking"
-        },
-        {
-          "film_id": "memoire-de-fille",
-          "title": "Mémoire de fille",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "17:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200591/booking"
-        },
-        {
-          "film_id": "si-tu-penses-bien",
-          "title": "Si tu penses bien",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "17:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200630/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "18:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200594/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "18:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200595/booking"
-        },
-        {
-          "film_id": "the-social-reckoning",
-          "title": "The Social Reckoning",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200598/booking"
-        },
-        {
-          "film_id": "notre-salut",
-          "title": "Notre salut",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200597/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200596/booking"
-        },
-        {
-          "film_id": "digger",
-          "title": "Digger",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200599/booking"
-        },
-        {
-          "film_id": "spider-man-brand-new-day",
-          "title": "Spider-Man : Brand New Day",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200601/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200600/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200602/booking"
-        },
-        {
-          "film_id": "la-maison-de-nos-reves",
-          "title": "La Maison de nos rêves",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200603/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200604/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200809/booking"
         },
         {
           "film_id": "cars",
           "title": "Cars",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:45",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200629/booking"
-        },
-        {
-          "film_id": "verity",
-          "title": "Verity",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200606/booking"
-        },
-        {
-          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
-          "title": "Ducobu et le fantôme de Saint-Potache",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "19:45",
-          "cinema": "Pathé Wilson",
-          "version": "VFST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200607/booking"
-        },
-        {
-          "film_id": "resident-evil",
-          "title": "Resident Evil",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "20:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200609/booking"
-        },
-        {
-          "film_id": "lodyssee",
-          "title": "L'Odyssée",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "21:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200611/booking"
-        },
-        {
-          "film_id": "linvitation",
-          "title": "L'Invitation",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200613/booking"
-        },
-        {
-          "film_id": "garance",
-          "title": "Garance",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "21:30",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200614/booking"
-        },
-        {
-          "film_id": "pressure",
-          "title": "Pressure",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "21:45",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200615/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200745/booking"
         },
         {
           "film_id": "la-maison-de-nos-reves",
           "title": "La Maison de nos rêves",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "21:45",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "15:45",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200616/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200755/booking"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
         },
         {
           "film_id": "the-social-reckoning",
           "title": "The Social Reckoning",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:00",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:00",
           "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200618/booking"
-        },
-        {
-          "film_id": "si-tu-penses-bien",
-          "title": "Si tu penses bien",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200622/booking"
-        },
-        {
-          "film_id": "ni-vue-ni-connue",
-          "title": "Ni vue, ni connue",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:00",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200619/booking"
-        },
-        {
-          "film_id": "obsession",
-          "title": "Obsession",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
-          "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200620/booking"
-        },
-        {
-          "film_id": "primetime",
-          "title": "Primetime",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:15",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200617/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200762/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue-2",
+          "title": "Ni vue ni connue",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:10",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
         },
         {
           "film_id": "digger",
           "title": "Digger",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:15",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:15",
           "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200621/booking"
-        },
-        {
-          "film_id": "resident-evil",
-          "title": "Resident Evil",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
-          "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200623/booking"
-        },
-        {
-          "film_id": "heart-of-the-beast",
-          "title": "Heart of The Beast",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
-          "time": "22:30",
-          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VF",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200625/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200758/booking"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200770/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200803/booking"
+        },
+        {
+          "film_id": "le-jour-de-son-retour",
+          "title": "Le Jour de son retour",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:20",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700092092&ps=EMS0947"
+        },
+        {
+          "film_id": "joyeuse-jungle",
+          "title": "Joyeuse jungle",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:20",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-cygne-et-lenfant",
+          "title": "Le Cygne et l'enfant",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200796/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200752/booking"
+        },
+        {
+          "film_id": "raison-et-sentiments",
+          "title": "Raison et Sentiments",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRYPL2X#showsession?id=emsx094700091490&ps=EMS0947"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:40",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
         },
         {
           "film_id": "verity",
           "title": "Verity",
-          "day_id": "20261013",
-          "day_title": "Mardi 13 octobre",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200757/booking"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "16:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200754/booking"
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200753/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200798/booking"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "heart-of-the-beast",
+          "title": "Heart of The Beast",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200756/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:45",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091480&ps=EMS0947"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:45",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "resident-evil",
+          "title": "Resident Evil",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200836/booking"
+        },
+        {
+          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200763/booking"
+        },
+        {
+          "film_id": "le-chant-des-oliviers",
+          "title": "Le Chant des oliviers",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "17:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200772/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200806/booking"
+        },
+        {
+          "film_id": "memoire-de-fille",
+          "title": "Mémoire de fille",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:10",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR5HWQI#showsession?id=emsx094700091486&ps=EMS0947"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "fini-de-rire-lhumour-politique-au-garde-a-vous",
+          "title": "Fini de rire ! l'humour politique au garde à vous",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "18:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200811/booking"
+        },
+        {
+          "film_id": "low-expectations",
+          "title": "Low expectations",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200808/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200768/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200773/booking"
+        },
+        {
+          "film_id": "lespece-explosive",
+          "title": "L'Espèce explosive",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:10",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091484&ps=EMS0947"
+        },
+        {
+          "film_id": "resident-evil",
+          "title": "Resident Evil",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200777/booking"
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200775/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200769/booking"
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "19:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200765/booking"
+        },
+        {
+          "film_id": "aprile",
+          "title": "Aprile",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200766/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200804/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200800/booking"
+        },
+        {
+          "film_id": "heart-of-the-beast",
+          "title": "Heart of The Beast",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200837/booking"
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200793/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200794/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091479&ps=EMS0947"
+        },
+        {
+          "film_id": "raison-et-sentiments",
+          "title": "Raison et Sentiments",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRTEUUP#showsession?id=emsx094700092094&ps=EMS0947"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "20:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-jour-de-son-retour",
+          "title": "Le Jour de son retour",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700092316&ps=EMS0947"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200795/booking"
+        },
+        {
+          "film_id": "ou-vont-les-ames",
+          "title": "Où vont les âmes",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:10",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "lodyssee",
+          "title": "L'Odyssée",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200767/booking"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200839/booking"
+        },
+        {
+          "film_id": "obsession",
+          "title": "Obsession",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200787/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200841/booking"
+        },
+        {
+          "film_id": "fini-de-rire-lhumour-politique-au-garde-a-vous",
+          "title": "Fini de rire ! l'humour politique au garde à vous",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "21:40",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200791/booking"
+        },
+        {
+          "film_id": "resident-evil",
+          "title": "Resident Evil",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200790/booking"
+        },
+        {
+          "film_id": "heart-of-the-beast",
+          "title": "Heart of The Beast",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200838/booking"
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200784/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
           "time": "22:30",
           "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
           "version": "VOST",
-          "booking_url": "https://s.pathe.fr/fr/V3358S200624/booking"
+          "booking_url": "https://s.pathe.fr/fr/V3358S200788/booking"
+        },
+        {
+          "film_id": "linvitation",
+          "title": "L'Invitation",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200780/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261014",
+          "day_title": "Mercredi 14 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200805/booking"
+        }
+      ]
+    },
+    {
+      "day_id": "20261015",
+      "day_title": "Jeudi 15 octobre",
+      "seances": [
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201098/booking"
+        },
+        {
+          "film_id": "resident-evil",
+          "title": "Resident Evil",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201075/booking"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201078/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201074/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201149/booking"
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201073/booking"
+        },
+        {
+          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201072/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201076/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201071/booking"
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201079/booking"
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201082/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201083/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201084/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201077/booking"
+        },
+        {
+          "film_id": "les-survivants-du-che",
+          "title": "Les Survivants du Che",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "11:45",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "la-vie-dune-femme-2",
+          "title": "La Vie d'une femme",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "qui-vit-encore",
+          "title": "Qui vit encore",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-jour-de-son-retour",
+          "title": "Le Jour de son retour",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "12:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700092095&ps=EMS0947"
+        },
+        {
+          "film_id": "butterfly-jam",
+          "title": "Butterfly Jam",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "12:50",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR54LR9#showsession?id=emsx094700091496&ps=EMS0947"
+        },
+        {
+          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201086/booking"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201091/booking"
+        },
+        {
+          "film_id": "cars",
+          "title": "Cars",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201088/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201089/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201093/booking"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201090/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201087/booking"
+        },
+        {
+          "film_id": "memoire-de-fille",
+          "title": "Mémoire de fille",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR5HWQI#showsession?id=emsx094700091501&ps=EMS0947"
+        },
+        {
+          "film_id": "ou-vont-les-ames",
+          "title": "Où vont les âmes",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:40",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "trois-adieux",
+          "title": "Trois adieux",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:40",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201094/booking"
+        },
+        {
+          "film_id": "fini-de-rire-lhumour-politique-au-garde-a-vous",
+          "title": "Fini de rire ! l'humour politique au garde à vous",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "13:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "maison-de-poupee",
+          "title": "Maison de poupée",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201097/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201096/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201095/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:15",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201092/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201113/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "14:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201099/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091494&ps=EMS0947"
+        },
+        {
+          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201100/booking"
+        },
+        {
+          "film_id": "la-vie-dune-femme-2",
+          "title": "La Vie d'une femme",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201150/booking"
+        },
+        {
+          "film_id": "cars",
+          "title": "Cars",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201101/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201102/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue-2",
+          "title": "Ni vue ni connue",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "15:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "raison-et-sentiments",
+          "title": "Raison et Sentiments",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRYPL2X#showsession?id=emsx094700091507&ps=EMS0947"
+        },
+        {
+          "film_id": "les-roches-rouges",
+          "title": "Les Roches rouges",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "ton-animal-maternel",
+          "title": "Ton animal maternel",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201118/booking"
+        },
+        {
+          "film_id": "les-elephants-dans-la-brume",
+          "title": "Les Éléphants dans la brume",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201105/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201107/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201108/booking"
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201111/booking"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201110/booking"
+        },
+        {
+          "film_id": "lespece-explosive",
+          "title": "L'Espèce explosive",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "16:50",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091722&ps=EMS0947"
+        },
+        {
+          "film_id": "la-soiree-des-passionnes-de-la-comedie-francaise",
+          "title": "De la Comédie-Française",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201109/booking"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201148/booking"
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201112/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "resident-evil",
+          "title": "Resident Evil",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201116/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRTEUUP#showsession?id=emsx094700091721&ps=EMS0947"
+        },
+        {
+          "film_id": "low-expectations",
+          "title": "Low expectations",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "17:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "film_id": "raison-et-sentiments",
+          "title": "Raison et Sentiments",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "heart-of-the-beast",
+          "title": "Heart of The Beast",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201151/booking"
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201146/booking"
+        },
+        {
+          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201117/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201133/booking"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:10",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "fini-de-rire-lhumour-politique-au-garde-a-vous",
+          "title": "Fini de rire ! l'humour politique au garde à vous",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:15",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201115/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "butterfly-jam",
+          "title": "Butterfly Jam",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR54LR9#showsession?id=emsx094700091509&ps=EMS0947"
+        },
+        {
+          "film_id": "le-jour-de-son-retour",
+          "title": "Le Jour de son retour",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "18:50",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700091723&ps=EMS0947"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201122/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201120/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201121/booking"
+        },
+        {
+          "film_id": "resident-evil",
+          "title": "Resident Evil",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201123/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue-2",
+          "title": "Ni vue ni connue",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201125/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201124/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201128/booking"
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "19:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201126/booking"
+        },
+        {
+          "film_id": "soudain",
+          "title": "Soudain",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201127/booking"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:15",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "heart-of-the-beast",
+          "title": "Heart of The Beast",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201114/booking"
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201130/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201152/booking"
+        },
+        {
+          "film_id": "fjord",
+          "title": "Fjord",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:20",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRB3CRG#showsession?id=emsx094700092317&ps=EMS0947"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201131/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091495&ps=EMS0947"
+        },
+        {
+          "film_id": "lespece-explosive",
+          "title": "L'Espèce explosive",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "20:50",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091504&ps=EMS0947"
+        },
+        {
+          "film_id": "lodyssee",
+          "title": "L'Odyssée",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "21:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201134/booking"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201147/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201137/booking"
+        },
+        {
+          "film_id": "jim-queen",
+          "title": "Jim Queen",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "21:45",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "21:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201145/booking"
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201140/booking"
+        },
+        {
+          "film_id": "obsession",
+          "title": "Obsession",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201135/booking"
+        },
+        {
+          "film_id": "resident-evil",
+          "title": "Resident Evil",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201139/booking"
+        },
+        {
+          "film_id": "linvitation",
+          "title": "L'Invitation",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201142/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201153/booking"
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261015",
+          "day_title": "Jeudi 15 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201138/booking"
+        }
+      ]
+    },
+    {
+      "day_id": "20261016",
+      "day_title": "Vendredi 16 octobre",
+      "seances": [
+        {
+          "film_id": "raison-et-sentiments",
+          "title": "Raison et Sentiments",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRYPL2X#showsession?id=emsx094700092361&ps=EMS0947"
+        },
+        {
+          "film_id": "linvitation",
+          "title": "L'Invitation",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201065/booking"
+        },
+        {
+          "film_id": "lodyssee",
+          "title": "L'Odyssée",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201057/booking"
+        },
+        {
+          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200995/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200997/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200994/booking"
+        },
+        {
+          "film_id": "resident-evil",
+          "title": "Resident Evil",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201459/booking"
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200996/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200999/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201003/booking"
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "10:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201002/booking"
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201005/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201006/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201007/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "11:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201008/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "les-elephants-dans-la-brume",
+          "title": "Les Éléphants dans la brume",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "ton-animal-maternel",
+          "title": "Ton animal maternel",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:05",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:15",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "ni-vue-ni-connue-2",
+          "title": "Ni vue ni connue",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-jour-de-son-retour",
+          "title": "Le Jour de son retour",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:45",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700092098&ps=EMS0947"
+        },
+        {
+          "film_id": "memoire-de-fille",
+          "title": "Mémoire de fille",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "12:50",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR5HWQI#showsession?id=emsx094700092318&ps=EMS0947"
+        },
+        {
+          "film_id": "butterfly-jam",
+          "title": "Butterfly Jam",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR54LR9#showsession?id=emsx094700091513&ps=EMS0947"
+        },
+        {
+          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201009/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201010/booking"
+        },
+        {
+          "film_id": "cars",
+          "title": "Cars",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201011/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201012/booking"
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201015/booking"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201013/booking"
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201016/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "13:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201017/booking"
+        },
+        {
+          "film_id": "aprile",
+          "title": "Aprile",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201020/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201022/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201019/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201018/booking"
+        },
+        {
+          "film_id": "les-survivants-du-che",
+          "title": "Les Survivants du Che",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "trois-adieux",
+          "title": "Trois adieux",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201014/booking"
+        },
+        {
+          "film_id": "lespece-explosive",
+          "title": "L'Espèce explosive",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091525&ps=EMS0947"
+        },
+        {
+          "film_id": "fjord",
+          "title": "Fjord",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:45",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "14:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "fjord",
+          "title": "Fjord",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRB3CRG#showsession?id=emsx094700092099&ps=EMS0947"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:10",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091510&ps=EMS0947"
+        },
+        {
+          "film_id": "resident-evil",
+          "title": "Resident Evil",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201458/booking"
+        },
+        {
+          "film_id": "lodyssee",
+          "title": "L'Odyssée",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:20",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201025/booking"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:40",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "15:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201023/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201027/booking"
+        },
+        {
+          "film_id": "la-vie-dune-femme-2",
+          "title": "La Vie d'une femme",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201028/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201032/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201030/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201031/booking"
+        },
+        {
+          "film_id": "raison-et-sentiments",
+          "title": "Raison et Sentiments",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:40",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRYPL2X#showsession?id=emsx094700091523&ps=EMS0947"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:45",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201034/booking"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201033/booking"
+        },
+        {
+          "film_id": "la-vie-dune-femme-2",
+          "title": "La Vie d'une femme",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "16:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201035/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "ducobu-et-le-fantome-de-saint-potache-2",
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VFST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201040/booking"
+        },
+        {
+          "film_id": "memoire-de-fille",
+          "title": "Mémoire de fille",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:45",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FR5HWQI#showsession?id=emsx094700091518&ps=EMS0947"
+        },
+        {
+          "film_id": "heart-of-the-beast",
+          "title": "Heart of The Beast",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201037/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "17:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201038/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRTEUUP#showsession?id=emsx094700092096&ps=EMS0947"
+        },
+        {
+          "film_id": "ou-vont-les-ames",
+          "title": "Où vont les âmes",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201041/booking"
+        },
+        {
+          "film_id": "qui-vit-encore",
+          "title": "Qui vit encore",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:10",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "ni-vue-ni-connue-2",
+          "title": "Ni vue ni connue",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:40",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "18:45",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201042/booking"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "raison-et-sentiments",
+          "title": "Raison et Sentiments",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201045/booking"
+        },
+        {
+          "film_id": "ni-vue-ni-connue",
+          "title": "Ni vue, ni connue",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201044/booking"
+        },
+        {
+          "film_id": "le-jour-de-son-retour",
+          "title": "Le Jour de son retour",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:10",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRKFQ2W#showsession?id=emsx094700092097&ps=EMS0947"
+        },
+        {
+          "film_id": "le-corset",
+          "title": "Le Corset",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:15",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201048/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201052/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "19:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201047/booking"
+        },
+        {
+          "film_id": "resident-evil",
+          "title": "Resident Evil",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201046/booking"
+        },
+        {
+          "film_id": "karma",
+          "title": "Karma",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S197344/booking"
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201050/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:15",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRTEUUP#showsession?id=emsx094700092357&ps=EMS0947"
+        },
+        {
+          "film_id": "la-maison-de-nos-reves",
+          "title": "La Maison de nos rêves",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201053/booking"
+        },
+        {
+          "film_id": "les-miserables",
+          "title": "Les Misérables",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201054/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201051/booking"
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:30",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VOST",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRX6EJK#showsession?id=emsx094700091512&ps=EMS0947"
+        },
+        {
+          "film_id": "low-expectations",
+          "title": "Low expectations",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:30",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VOST",
+          "booking_url": ""
+        },
+        {
+          "film_id": "notre-salut",
+          "title": "Notre salut",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "20:50",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "lespece-explosive",
+          "title": "L'Espèce explosive",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:00",
+          "cinema": "ABC",
+          "cinema_id": "abc",
+          "version": "VF",
+          "booking_url": "https://www.ticketingcine.com/EMS0947/FRFIS1K#showsession?id=emsx094700091517&ps=EMS0947"
+        },
+        {
+          "film_id": "lodyssee-musicale-de-kate-bush",
+          "title": "L'Odyssée musicale de Kate Bush",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:00",
+          "cinema": "American Cosmograph",
+          "cinema_id": "cosmo",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "minotaure",
+          "title": "Minotaure",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:00",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VO",
+          "booking_url": ""
+        },
+        {
+          "film_id": "karma",
+          "title": "Karma",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S198007/booking"
+        },
+        {
+          "film_id": "karma",
+          "title": "Karma",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S200010/booking"
+        },
+        {
+          "film_id": "the-social-reckoning",
+          "title": "The Social Reckoning",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201043/booking"
+        },
+        {
+          "film_id": "fini-de-rire-lhumour-politique-au-garde-a-vous",
+          "title": "Fini de rire ! l'humour politique au garde à vous",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:30",
+          "cinema": "Utopia",
+          "cinema_id": "utopia",
+          "version": "VF",
+          "booking_url": ""
+        },
+        {
+          "film_id": "obsession",
+          "title": "Obsession",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201058/booking"
+        },
+        {
+          "film_id": "primetime",
+          "title": "Primetime",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "21:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201061/booking"
+        },
+        {
+          "film_id": "garance",
+          "title": "Garance",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "22:00",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201059/booking"
+        },
+        {
+          "film_id": "verity",
+          "title": "Verity",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201063/booking"
+        },
+        {
+          "film_id": "digger",
+          "title": "Digger",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "22:15",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201066/booking"
+        },
+        {
+          "film_id": "heart-of-the-beast",
+          "title": "Heart of The Beast",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VOST",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201067/booking"
+        },
+        {
+          "film_id": "malfaisante",
+          "title": "Malfaisante",
+          "day_id": "20261016",
+          "day_title": "Vendredi 16 octobre",
+          "time": "22:30",
+          "cinema": "Pathé Wilson",
+          "cinema_id": "pathe",
+          "version": "VF",
+          "booking_url": "https://s.pathe.fr/fr/V3358S201064/booking"
         }
       ]
     }
