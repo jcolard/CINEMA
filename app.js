@@ -153,7 +153,7 @@
     seen: new Set(),
     currentView: 'view-schedule',
     selectedDayIndex: 0,
-    scheduleFilter: 'all',
+    scheduleFilters: new Set(),
     allMovies: [],
     allDays: [],
     movies: [],
@@ -612,15 +612,36 @@
     });
 
     const filterButtons = document.querySelectorAll('.schedule-quick-filters .filter-pill');
+    function syncFilterButtonsUI() {
+      const isAll = state.scheduleFilters.size === 0;
+      filterButtons.forEach(b => {
+        const f = b.dataset.filter;
+        if (f === 'all') {
+          b.classList.toggle('active', isAll);
+        } else {
+          b.classList.toggle('active', state.scheduleFilters.has(f));
+        }
+      });
+    }
+
     filterButtons.forEach(btn => {
       btn.onclick = () => {
-        filterButtons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        state.scheduleFilter = btn.dataset.filter;
+        const filterKey = btn.dataset.filter;
+        if (filterKey === 'all') {
+          state.scheduleFilters.clear();
+        } else {
+          if (state.scheduleFilters.has(filterKey)) {
+            state.scheduleFilters.delete(filterKey);
+          } else {
+            state.scheduleFilters.add(filterKey);
+          }
+        }
+        syncFilterButtonsUI();
         renderSchedule();
       };
     });
 
+    syncFilterButtonsUI();
     renderSchedule();
   }
 
@@ -643,12 +664,11 @@
       return match ? parseInt(match[1], 10) >= 18 : false;
     }
 
-    if (state.scheduleFilter === 'after18') {
+    if (state.scheduleFilters.has('after18')) {
       seances = seances.filter(s => isAfter18h(s.time));
-    } else if (state.scheduleFilter === 'liked') {
+    }
+    if (state.scheduleFilters.has('liked')) {
       seances = seances.filter(s => state.liked.has(s.film_id));
-    } else if (state.scheduleFilter === 'unseen') {
-      seances = seances.filter(s => !state.seen.has(s.film_id) && !state.disliked.has(s.film_id));
     }
 
     if (seances.length === 0) {
